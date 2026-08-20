@@ -1,0 +1,25 @@
+check_id,validation_area,check_description,result,status,critical_failure,required_treatment,notes
+S2B001,input_integrity,All checksum-locked inputs match the expected Stage 2B bundle,11/11 passed,passed,no,Stop transformation when an input checksum differs,
+S2B002,top_brand_preservation,All source-native Top Brand rows are retained,18/18 source rows retained,passed,no,Retain every source-native record ID,
+S2B003,top_brand_expansion,Each Top Brand row expands to five explicit year cells,90 long rows,passed,no,Emit one row per 2022–2026 source cell,
+S2B004,top_brand_observed,Observed Top Brand values retain the Stage 1 count,80 observed values,passed,no,Preserve every observed TBI value,
+S2B005,missingness,Unavailable Top Brand cells remain explicit null observations,10 unavailable cells,passed,no,Do not replace missing values with zero,
+S2B006,missingness,Unavailable observations contain no numeric value,All unavailable values are blank,passed,no,Keep unavailable values null,
+S2B007,brand_footprint_preservation,Every limited Brand Footprint fact is retained once,10 facts retained,passed,no,Retain each source-native fact exactly once,
+S2B008,output_completeness,Canonical performance table contains the expected observations,100 canonical rows,passed,no,Require 90 Top Brand rows and 10 Brand Footprint rows,
+S2B009,uniqueness,Canonical observation identifiers are unique,100 unique IDs,passed,no,Resolve duplicate observation IDs,
+S2B010,schema,Canonical outputs follow the committed field order,51 fields in canonical order,passed,no,Use the committed standardization schema,
+S2B011,brand_mapping,All standardized observations have canonical brand mappings,100/100 mapped,passed,no,Do not standardize unmapped brand identities,
+S2B012,category_mapping,Every Top Brand observation has a category-specific taxonomy mapping,90/90 mapped,passed,no,Require source-subcategory category mapping,
+S2B013,comparability,Every comparability class exists in the committed rule registry,All classes recognized,passed,no,Reject unregistered comparability classes,
+S2B014,metric_semantics,TBI remains source-native and is never relabeled as market share,No market-share relabeling,passed,no,Retain TBI as TBI,
+S2B015,ownership_scope,Le Minerale remains extended-group sensitivity only,Le Minerale sensitivity scope retained,passed,no,Exclude from strict-control Mayora aggregation,
+S2B016,brand_identity,Cap Bango and BANGO source aliases remain visible,Both aliases retained,passed,no,Preserve source labels and family continuity caveat,
+S2B017,brand_identity,Kopiko observations remain category-bound,Captured Kopiko rows restricted to White Coffee,passed,no,Do not reuse across confectionery and coffee categories,
+S2B018,ownership_period,No standardized observation is attributed outside a valid ownership period,0 invalid ownership-period rows,passed,no,Exclude invalid temporal attribution,
+S2B019,bound_semantics,Household reach lower bounds remain bounds rather than exact estimates,Lower-bound semantics retained,passed,no,Do not convert more-than statements into exact estimates,
+S2B020,provenance,"Every canonical observation retains source ID, URL, publisher, and retrieval date",Complete provenance fields,passed,no,Do not publish observations with incomplete source provenance,
+S2B021,source_separation,Source-native metric and unit combinations remain distinct,No incompatible unit substitution,passed,no,Preserve source-native metric and unit,
+S2B022,structural_limitation,Selective source coverage remains an explicit analytical caveat,PASS_WITH_CAVEAT,passed_with_caveat,no,Use observable denominators and keep structural breadth ownership-based,This validation is not a performance result.
+S2B023,source_native_structure,Known surplus delimiter in the terminal Brand Footprint notes field is repaired deterministically,1 terminal-notes repair,passed_with_caveat,no,Join only surplus terminal fields into notes and preserve the complete text,No analytical field is inferred or altered.
+S2B024,stage_gate,Stage 2B standardization is complete enough for user execution and review,PASS_WITH_CAVEAT,passed_with_caveat,no,Review the executed notebook and generated output package before repository publication,"No winner, composite score, or analytical performance result is produced."
