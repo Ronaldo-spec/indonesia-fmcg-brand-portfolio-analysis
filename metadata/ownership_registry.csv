@@ -1,60 +1,158 @@
 group,operating_company,brand_family,brand,category_scope,relationship_type,ownership_start,ownership_end,source_id,verification_status,notes
-Wings Group,Unresolved within Wings Group,Mie Sedaap,Mie Sedaap,instant noodles,unclear,,,SRC_WNG_002,official_portfolio_listing_only,"Listed on the official Wings local-brands page; legal operating entity and control relationship require separate verification."
-Wings Group,Unresolved within Wings Group,SoKlin,SoKlin,fabric care,unclear,,,SRC_WNG_002,official_portfolio_listing_only,"Listed on the official Wings local-brands page; legal operating entity and control relationship require separate verification."
-Wings Group,Unresolved within Wings Group,GIV,GIV,personal care,unclear,,,SRC_WNG_002,official_portfolio_listing_only,"Listed on the official Wings local-brands page; legal operating entity and control relationship require separate verification."
-Wings Group,Unresolved within Wings Group,MILKU,MILKU,dairy,unclear,,,SRC_WNG_002,official_portfolio_listing_only,"Listed on the official Wings local-brands page; legal operating entity and control relationship require separate verification."
-Wings Group,Unresolved within Wings Group,TOP Coffee,TOP Coffee,beverages,unclear,,,SRC_WNG_002,official_portfolio_listing_only,"Listed on the official Wings local-brands page; legal operating entity and control relationship require separate verification."
-Wings Group,PT Lion Wings,Ciptadent,Ciptadent,personal care,joint_venture,,,SRC_WNG_001,verified_joint_venture_portfolio,"Official Wings corporate history explicitly identifies Lion Wings and this brand; primary overall attribution remains excluded unless the JV treatment rule allows it."
-Wings Group,PT Lion Wings,Kodomo,Kodomo,personal care,joint_venture,,,SRC_WNG_001,verified_joint_venture_portfolio,"Official Wings corporate history explicitly identifies Lion Wings and this brand."
-Wings Group,PT Lion Wings,Systema,Systema,personal care,joint_venture,,,SRC_WNG_001,verified_joint_venture_portfolio,"Official Wings corporate history explicitly identifies Lion Wings and this brand."
-Wings Group,PT Lion Wings,Emeron,Emeron,personal care,joint_venture,,,SRC_WNG_001,verified_joint_venture_portfolio,"Official Wings corporate history explicitly identifies Lion Wings and this brand."
-Wings Group,PT Lion Wings,Serasoft,Serasoft,personal care,joint_venture,,,SRC_WNG_001,verified_joint_venture_portfolio,"Official Wings corporate history explicitly identifies Lion Wings and this brand."
-Wings Group,PT Lion Wings,Zinc,Zinc,personal care,joint_venture,,,SRC_WNG_001,verified_joint_venture_portfolio,"Official Wings corporate history explicitly identifies Lion Wings and this brand."
-Wings Group,PT Lion Wings,Mama Lemon,Mama Lemon,home care,joint_venture,,,SRC_WNG_001,verified_joint_venture_portfolio,"Official Wings corporate history explicitly identifies Lion Wings and this brand."
-Wings Group,PT Lion Wings,Posh,Posh,personal care,joint_venture,,,SRC_WNG_001,verified_joint_venture_portfolio,"Official Wings corporate history explicitly identifies Lion Wings and this brand."
-Wings Group,Glico Wings,Haku,Haku,ice cream,joint_venture,,,SRC_WNG_001,verified_joint_venture_portfolio,"Official Wings corporate history explicitly identifies Glico Wings and this brand."
-Wings Group,Glico Wings,Waku Waku,Waku Waku,ice cream,joint_venture,,,SRC_WNG_001,verified_joint_venture_portfolio,"Official Wings corporate history explicitly identifies Glico Wings and this brand."
-Wings Group,Glico Wings,Frost Bite,Frost Bite,ice cream,joint_venture,,,SRC_WNG_001,verified_joint_venture_portfolio,"Official Wings corporate history explicitly identifies Glico Wings and this brand."
-Wings Group,Glico Wings,J-Cone,J-Cone,ice cream,joint_venture,,,SRC_WNG_001,verified_joint_venture_portfolio,"Official Wings corporate history explicitly identifies Glico Wings and this brand."
-Wings Group,Calbee Wings,Potabee,Potabee,snacks,joint_venture,,,SRC_WNG_001,verified_joint_venture_portfolio,"Official Wings corporate history explicitly identifies Calbee Wings and this brand."
-Wings Group,Calbee Wings,Krisbee,Krisbee,snacks,joint_venture,,,SRC_WNG_001,verified_joint_venture_portfolio,"Official Wings corporate history explicitly identifies Calbee Wings and this brand."
-Wings Group,Calbee Wings,Japota,Japota,snacks,joint_venture,,,SRC_WNG_001,verified_joint_venture_portfolio,"Official Wings corporate history explicitly identifies Calbee Wings and this brand."
-Indofood Group,Noodles Division,Indomie,Indomie,instant noodles,controlled,,,SRC_IDF_002,verified_group_portfolio,"Official Indofood business page identifies the brand within its Consumer Branded Products portfolio."
-Indofood Group,Noodles Division,Supermi,Supermi,instant noodles,controlled,,,SRC_IDF_002,verified_group_portfolio,"Official Indofood business page identifies the brand within its Consumer Branded Products portfolio."
-Indofood Group,Noodles Division,Sarimi,Sarimi,instant noodles,controlled,,,SRC_IDF_002,verified_group_portfolio,"Official Indofood business page identifies the brand within its Consumer Branded Products portfolio."
-Indofood Group,Noodles Division,Pop Mie,Pop Mie,instant noodles,controlled,,,SRC_IDF_002,verified_group_portfolio,"Official Indofood business page identifies the brand within its Consumer Branded Products portfolio."
-Indofood Group,PT Indolakto,Indomilk,Indomilk,dairy,controlled,,,SRC_IDF_002,verified_group_portfolio,"Official Indofood business page identifies PT Indolakto and the brand within its Dairy Division."
-Indofood Group,PT Indolakto,Milkuat,Milkuat,dairy,controlled,,,SRC_IDF_002,verified_group_portfolio,"Official Indofood business page identifies PT Indolakto and the brand within its Dairy Division."
-Indofood Group,PT Indofood Fortuna Makmur,Chitato,Chitato,snacks,controlled,,,SRC_IDF_002,verified_group_portfolio,"Official Indofood business page identifies PT Indofood Fortuna Makmur and the brand within its Snack Foods Division."
-Indofood Group,PT Indofood Fortuna Makmur,Qtela,Qtela,snacks,controlled,,,SRC_IDF_002,verified_group_portfolio,"Official Indofood business page identifies PT Indofood Fortuna Makmur and the brand within its Snack Foods Division."
-Indofood Group,Nutrition & Special Foods Division,Promina,Promina,nutrition and special foods,controlled,,,SRC_IDF_002,verified_group_portfolio,"Official Indofood business page identifies the brand within its Nutrition & Special Foods Division."
-Indofood Group,PT Anugerah Indofood Barokah Makmur,Club,Club,packaged water,controlled,,,SRC_IDF_002,verified_group_portfolio,"Official Indofood business page identifies PT Anugerah Indofood Barokah Makmur and Club within its Beverages Division."
-Indofood Group,Bogasari Group,Segitiga Biru,Segitiga Biru,wheat flour,controlled,,,SRC_IDF_003,verified_group_portfolio,"Official Indofood Bogasari page identifies the brand as a consumer-facing flour brand."
-Indofood Group,Bogasari Group,Cakra Kembar,Cakra Kembar,wheat flour,controlled,,,SRC_IDF_003,verified_group_portfolio,"Official Indofood Bogasari page identifies the brand as a consumer-facing flour brand."
-Indofood Group,Bogasari Group,La Fonte,La Fonte,pasta,controlled,,,SRC_IDF_003,verified_group_portfolio,"Official Indofood Bogasari page identifies the brand as its pasta brand in Indonesia."
-Indofood Group,Agribusiness - Edible Oils & Fats,Bimoli,Bimoli,cooking oil,controlled,,,SRC_IDF_004,verified_group_portfolio,"Official Indofood Agribusiness page identifies the brand as a consumer product."
-Indofood Group,Agribusiness - Edible Oils & Fats,Palmia,Palmia,margarine,controlled,,,SRC_IDF_004,verified_group_portfolio,"Official Indofood Agribusiness page identifies the brand as a consumer product."
-Mayora,PT Mayora Indah Tbk and subsidiaries,Roma,Roma,biscuits/wafer,controlled,,,SRC_MYR_001,verified_group_portfolio_normalized,"Official Mayora page lists multiple Roma products; they are normalized to the Roma brand family to avoid variant double counting."
-Mayora,PT Mayora Indah Tbk and subsidiaries,Better,Better,biscuits,controlled,,,SRC_MYR_001,verified_group_portfolio_normalized,"Official Mayora page lists the brand among products manufactured by PT Mayora Indah Tbk and subsidiaries."
-Mayora,PT Mayora Indah Tbk and subsidiaries,Slai O Lai,Slai O Lai,biscuits,controlled,,,SRC_MYR_001,verified_group_portfolio_normalized,"Official Mayora page lists the brand among products manufactured by PT Mayora Indah Tbk and subsidiaries."
-Mayora,PT Mayora Indah Tbk and subsidiaries,Kopiko,Kopiko,candy/coffee,controlled,,,SRC_MYR_001,verified_group_portfolio_normalized,"Kopiko product variants are normalized to one brand family for brand-count purposes."
-Mayora,PT Mayora Indah Tbk and subsidiaries,KIS,KIS,candy,controlled,,,SRC_MYR_001,verified_group_portfolio_normalized,"KIS product variants are normalized to one brand family for brand-count purposes."
-Mayora,PT Mayora Indah Tbk and subsidiaries,Beng Beng,Beng Beng,wafer/chocolate,controlled,,,SRC_MYR_001,verified_group_portfolio_normalized,"Beng Beng product variants are normalized to one brand family for brand-count purposes."
-Mayora,PT Mayora Indah Tbk and subsidiaries,Astor,Astor,wafer,controlled,,,SRC_MYR_001,verified_group_portfolio_normalized,"Official Mayora page lists the brand among products manufactured by PT Mayora Indah Tbk and subsidiaries."
-Mayora,PT Mayora Indah Tbk and subsidiaries,Choki-choki,Choki-choki,chocolate,controlled,,,SRC_MYR_001,verified_group_portfolio_normalized,"Official Mayora page lists the brand among products manufactured by PT Mayora Indah Tbk and subsidiaries."
-Mayora,PT Mayora Indah Tbk and subsidiaries,Torabika,Torabika,coffee,controlled,,,SRC_MYR_001,verified_group_portfolio_normalized,"Torabika product variants are normalized to one brand family for brand-count purposes."
-Mayora,PT Mayora Indah Tbk and subsidiaries,Energen,Energen,health food/cereal beverage,controlled,,,SRC_MYR_001,verified_group_portfolio_normalized,"Energen product variants are normalized to one brand family for brand-count purposes."
-Mayora,PT Tirta Fresindo Jaya,Le Minerale,Le Minerale,packaged water,unclear,,,SRC_LMN_001,operator_verified_group_control_unresolved,"The official Le Minerale website identifies PT Tirta Fresindo Jaya as operator, while Mayora's 2025 annual report classifies PT Tirta Fresindo Jaya as a related party. Do not attribute to PT Mayora Indah Tbk until control or an agreed broader-group scope is established."
-Unilever Indonesia,PT Unilever Indonesia Tbk,Lifebuoy,Lifebuoy,personal care,controlled,,,SRC_UNV_001,verified_historical_portfolio_2024,"Listed in Unilever Indonesia Annual Report 2024; current-period continuity remains subject to later portfolio checks."
-Unilever Indonesia,PT Unilever Indonesia Tbk,Pepsodent,Pepsodent,oral care,controlled,,,SRC_UNV_001,verified_historical_portfolio_2024,"Listed in Unilever Indonesia Annual Report 2024; current-period continuity remains subject to later portfolio checks."
-Unilever Indonesia,PT Unilever Indonesia Tbk,Rinso,Rinso,fabric care,controlled,,,SRC_UNV_001,verified_historical_portfolio_2024,"Listed in Unilever Indonesia Annual Report 2024; current-period continuity remains subject to later portfolio checks."
-Unilever Indonesia,PT Unilever Indonesia Tbk,Sunlight,Sunlight,home care,controlled,,,SRC_UNV_001,verified_historical_portfolio_2024,"Listed in Unilever Indonesia Annual Report 2024; current-period continuity remains subject to later portfolio checks."
-Unilever Indonesia,PT Unilever Indonesia Tbk,Sunsilk,Sunsilk,hair care,controlled,,,SRC_UNV_001,verified_historical_portfolio_2024,"Listed in Unilever Indonesia Annual Report 2024; current-period continuity remains subject to later portfolio checks."
-Unilever Indonesia,PT Unilever Indonesia Tbk,Dove,Dove,beauty/personal care,controlled,,,SRC_UNV_001,verified_historical_portfolio_2024,"Listed in Unilever Indonesia Annual Report 2024; current-period continuity remains subject to later portfolio checks."
-Unilever Indonesia,PT Unilever Indonesia Tbk,Bango,Bango,foods,controlled,,,SRC_UNV_001,verified_historical_portfolio_2024,"Listed in Unilever Indonesia Annual Report 2024; current-period continuity remains subject to later portfolio checks."
-Unilever Indonesia,PT Unilever Indonesia Tbk,Royco,Royco,foods,controlled,,,SRC_UNV_001,verified_historical_portfolio_2024,"Listed in Unilever Indonesia Annual Report 2024; current-period continuity remains subject to later portfolio checks."
-Unilever Indonesia,PT Unilever Indonesia Tbk,SariWangi,SariWangi,tea,former_portfolio,,2026-03-02,SRC_UNV_002,verified_divestment_date,"Transfer to PT Savoria Kreasi Rasa completed on 2 March 2026. Historical observations before completion may remain attributable to Unilever Indonesia."
-Unilever Indonesia,PT Unilever Indonesia Tbk,Cornetto,Cornetto,ice cream,former_portfolio,,2025-12-08,SRC_UNV_002,verified_divestment_date,"Ice Cream business transferred to PT The Magnum Ice Cream Indonesia effective 8 December 2025."
-Unilever Indonesia,PT Unilever Indonesia Tbk,Magnum,Magnum,ice cream,former_portfolio,,2025-12-08,SRC_UNV_002,verified_divestment_date,"Ice Cream business transferred to PT The Magnum Ice Cream Indonesia effective 8 December 2025."
-Unilever Indonesia,PT Unilever Indonesia Tbk,Paddle Pop,Paddle Pop,ice cream,former_portfolio,,2025-12-08,SRC_UNV_002,verified_divestment_date,"Ice Cream business transferred to PT The Magnum Ice Cream Indonesia effective 8 December 2025."
-Unilever Indonesia,PT Unilever Indonesia Tbk,Wall's,Wall's,ice cream,former_portfolio,,2025-12-08,SRC_UNV_002,verified_divestment_date,"Ice Cream business transferred to PT The Magnum Ice Cream Indonesia effective 8 December 2025."
+Wings Group,Operating entity unresolved within Wings Group,ALE-ALE,ALE-ALE,pending_category_standardization,controlled_group_portfolio,,,SRC_WNG_002;SRC_WNG_003,verified_group_portfolio,Group attribution verified; operating entity unresolved.
+Wings Group,Operating entity unresolved within Wings Group,AQUVIVA,AQUVIVA,pending_category_standardization,controlled_group_portfolio,,,SRC_WNG_002;SRC_WNG_003,verified_group_portfolio,Group attribution verified; operating entity unresolved.
+Wings Group,Operating entity unresolved within Wings Group,Baby Happy,Baby Happy,pending_category_standardization,controlled_group_portfolio,,,SRC_WNG_002;SRC_WNG_003,verified_group_portfolio,Group attribution verified; operating entity unresolved.
+Wings Group,Operating entity unresolved within Wings Group,Boom,Boom,pending_category_standardization,controlled_group_portfolio,,,SRC_WNG_002;SRC_WNG_003,verified_group_portfolio,Group attribution verified; operating entity unresolved.
+Wings Group,Operating entity unresolved within Wings Group,Sedaap,Bumbu Kaldu Sedaap,pending_category_standardization,controlled_group_portfolio,,,SRC_WNG_002;SRC_WNG_003,verified_group_portfolio,Group attribution verified; operating entity unresolved.
+Wings Group,Operating entity unresolved within Wings Group,ChocoDrink,ChocoDrink,pending_category_standardization,controlled_group_portfolio,,,SRC_WNG_002;SRC_WNG_003,verified_group_portfolio,Group attribution verified; operating entity unresolved.
+Wings Group,Operating entity unresolved within Wings Group,Daia,Daia,pending_category_standardization,controlled_group_portfolio,,,SRC_WNG_002;SRC_WNG_003,verified_group_portfolio,Group attribution verified; operating entity unresolved.
+Wings Group,Operating entity unresolved within Wings Group,EkoMie,EkoMie,pending_category_standardization,controlled_group_portfolio,,,SRC_WNG_002;SRC_WNG_003,verified_group_portfolio,Group attribution verified; operating entity unresolved.
+Wings Group,Operating entity unresolved within Wings Group,Ekonomi,Ekonomi Power Liquid,pending_category_standardization,controlled_group_portfolio,,,SRC_WNG_002;SRC_WNG_003,verified_group_portfolio,Group attribution verified; operating entity unresolved.
+Wings Group,Operating entity unresolved within Wings Group,Floridina,Floridina,pending_category_standardization,controlled_group_portfolio,,,SRC_WNG_002;SRC_WNG_003,verified_group_portfolio,Group attribution verified; operating entity unresolved.
+Wings Group,Operating entity unresolved within Wings Group,FN Man,FN Man,pending_category_standardization,controlled_group_portfolio,,,SRC_WNG_002;SRC_WNG_003,verified_group_portfolio,Group attribution verified; operating entity unresolved.
+Wings Group,Operating entity unresolved within Wings Group,Fres & Natural,Fres & Natural Soap,pending_category_standardization,controlled_group_portfolio,,,SRC_WNG_002;SRC_WNG_003,verified_group_portfolio,Group attribution verified; operating entity unresolved.
+Wings Group,Operating entity unresolved within Wings Group,Fres & Natural,Fres & Natural Spray,pending_category_standardization,controlled_group_portfolio,,,SRC_WNG_002;SRC_WNG_003,verified_group_portfolio,Group attribution verified; operating entity unresolved.
+Wings Group,Operating entity unresolved within Wings Group,GIV,GIV,pending_category_standardization,controlled_group_portfolio,,,SRC_WNG_002;SRC_WNG_003,verified_group_portfolio,Group attribution verified; operating entity unresolved.
+Wings Group,Operating entity unresolved within Wings Group,GIV,GIV White,pending_category_standardization,controlled_group_portfolio,,,SRC_WNG_002;SRC_WNG_003,verified_group_portfolio,Group attribution verified; operating entity unresolved.
+Wings Group,Operating entity unresolved within Wings Group,GOLDA,GOLDA Coffee,pending_category_standardization,controlled_group_portfolio,,,SRC_WNG_002;SRC_WNG_003,verified_group_portfolio,Group attribution verified; operating entity unresolved.
+Wings Group,Operating entity unresolved within Wings Group,Hers Protex,Hers Protex,pending_category_standardization,controlled_group_portfolio,,,SRC_WNG_002;SRC_WNG_003,verified_group_portfolio,Group attribution verified; operating entity unresolved.
+Wings Group,Operating entity unresolved within Wings Group,ISOPLUS,ISOPLUS,pending_category_standardization,controlled_group_portfolio,,,SRC_WNG_002;SRC_WNG_003,verified_group_portfolio,Group attribution verified; operating entity unresolved.
+Wings Group,Operating entity unresolved within Wings Group,Jas Jus,Jas Jus,pending_category_standardization,controlled_group_portfolio,,,SRC_WNG_002;SRC_WNG_003,verified_group_portfolio,Group attribution verified; operating entity unresolved.
+Wings Group,Operating entity unresolved within Wings Group,Sedaap,Kecap Sedaap,pending_category_standardization,controlled_group_portfolio,,,SRC_WNG_002;SRC_WNG_003,verified_group_portfolio,Group attribution verified; operating entity unresolved.
+Wings Group,Operating entity unresolved within Wings Group,Sedaap,Mie Sedaap,pending_category_standardization,controlled_group_portfolio,,,SRC_WNG_002;SRC_WNG_003,verified_group_portfolio,Group attribution verified; operating entity unresolved.
+Wings Group,Operating entity unresolved within Wings Group,Sedaap,Mie Sedaap Cup,pending_category_standardization,controlled_group_portfolio,,,SRC_WNG_002;SRC_WNG_003,verified_group_portfolio,Group attribution verified; operating entity unresolved.
+Wings Group,Operating entity unresolved within Wings Group,Sedaap,Mie Sedaap Ramen Yes,pending_category_standardization,controlled_group_portfolio,,,SRC_WNG_002;SRC_WNG_003,verified_group_portfolio,Group attribution verified; operating entity unresolved.
+Wings Group,Operating entity unresolved within Wings Group,Sedaap,Mie Sedaap Tasty,pending_category_standardization,controlled_group_portfolio,,,SRC_WNG_002;SRC_WNG_003,verified_group_portfolio,Group attribution verified; operating entity unresolved.
+Wings Group,Operating entity unresolved within Wings Group,Mie Sukses's,Mie Sukses's Isi 2,pending_category_standardization,controlled_group_portfolio,,,SRC_WNG_002;SRC_WNG_003,verified_group_portfolio,Group attribution verified; operating entity unresolved.
+Wings Group,Operating entity unresolved within Wings Group,Milkjus,Milkjus,pending_category_standardization,controlled_group_portfolio,,,SRC_WNG_002;SRC_WNG_003,verified_group_portfolio,Group attribution verified; operating entity unresolved.
+Wings Group,Operating entity unresolved within Wings Group,MILKU,MILKU,pending_category_standardization,controlled_group_portfolio,,,SRC_WNG_002;SRC_WNG_003,verified_group_portfolio,Group attribution verified; operating entity unresolved.
+Wings Group,Operating entity unresolved within Wings Group,Neo Coffee,Neo Coffee,pending_category_standardization,controlled_group_portfolio,,,SRC_WNG_002;SRC_WNG_003,verified_group_portfolio,Group attribution verified; operating entity unresolved.
+Wings Group,Operating entity unresolved within Wings Group,Nuvo,Nuvo,pending_category_standardization,controlled_group_portfolio,,,SRC_WNG_002;SRC_WNG_003,verified_group_portfolio,Group attribution verified; operating entity unresolved.
+Wings Group,Operating entity unresolved within Wings Group,Power F,Power F,pending_category_standardization,controlled_group_portfolio,,,SRC_WNG_002;SRC_WNG_003,verified_group_portfolio,Group attribution verified; operating entity unresolved.
+Wings Group,Operating entity unresolved within Wings Group,ProGuard,ProGuard,pending_category_standardization,controlled_group_portfolio,,,SRC_WNG_002;SRC_WNG_003,verified_group_portfolio,Group attribution verified; operating entity unresolved.
+Wings Group,Operating entity unresolved within Wings Group,Ekonomi,Sabun Cream Ekonomi,pending_category_standardization,controlled_group_portfolio,,,SRC_WNG_002;SRC_WNG_003,verified_group_portfolio,Group attribution verified; operating entity unresolved.
+Wings Group,Operating entity unresolved within Wings Group,Segar Dingin,Segar Dingin,pending_category_standardization,controlled_group_portfolio,,,SRC_WNG_002;SRC_WNG_003,verified_group_portfolio,Group attribution verified; operating entity unresolved.
+Wings Group,Operating entity unresolved within Wings Group,So Fresh,So Fresh,pending_category_standardization,controlled_group_portfolio,,,SRC_WNG_002;SRC_WNG_003,verified_group_portfolio,Group attribution verified; operating entity unresolved.
+Wings Group,Operating entity unresolved within Wings Group,So Soft,So Soft Detergent,pending_category_standardization,controlled_group_portfolio,,,SRC_WNG_002;SRC_WNG_003,verified_group_portfolio,Group attribution verified; operating entity unresolved.
+Wings Group,Operating entity unresolved within Wings Group,So Yumie,So Yumie,pending_category_standardization,controlled_group_portfolio,,,SRC_WNG_002;SRC_WNG_003,verified_group_portfolio,Group attribution verified; operating entity unresolved.
+Wings Group,Operating entity unresolved within Wings Group,SoKlin,SoKlin,pending_category_standardization,controlled_group_portfolio,,,SRC_WNG_002;SRC_WNG_003,verified_group_portfolio,Group attribution verified; operating entity unresolved.
+Wings Group,Operating entity unresolved within Wings Group,SUPERSOL,SUPERSOL,pending_category_standardization,controlled_group_portfolio,,,SRC_WNG_002;SRC_WNG_003,verified_group_portfolio,Group attribution verified; operating entity unresolved.
+Wings Group,Operating entity unresolved within Wings Group,Tea Jus,Tea Jus,pending_category_standardization,controlled_group_portfolio,,,SRC_WNG_002;SRC_WNG_003,verified_group_portfolio,Group attribution verified; operating entity unresolved.
+Wings Group,Operating entity unresolved within Wings Group,Teh Javana,Teh Javana,pending_category_standardization,controlled_group_portfolio,,,SRC_WNG_002;SRC_WNG_003,verified_group_portfolio,Group attribution verified; operating entity unresolved.
+Wings Group,Operating entity unresolved within Wings Group,Teh Rio,Teh Rio,pending_category_standardization,controlled_group_portfolio,,,SRC_WNG_002;SRC_WNG_003,verified_group_portfolio,Group attribution verified; operating entity unresolved.
+Wings Group,Operating entity unresolved within Wings Group,TOP Coffee,TOP Coffee,pending_category_standardization,controlled_group_portfolio,,,SRC_WNG_002;SRC_WNG_003,verified_group_portfolio,Group attribution verified; operating entity unresolved.
+Wings Group,Operating entity unresolved within Wings Group,WINGS,WINGS Biru,pending_category_standardization,controlled_group_portfolio,,,SRC_WNG_002;SRC_WNG_003,verified_group_portfolio,Group attribution verified; operating entity unresolved.
+Wings Group,Operating entity unresolved within Wings Group,WIZ,WIZ 24 Disinfectant,pending_category_standardization,controlled_group_portfolio,,,SRC_WNG_002;SRC_WNG_003,verified_group_portfolio,Group attribution verified; operating entity unresolved.
+Wings Group,Operating entity unresolved within Wings Group,WPC,WPC Toilet Cleaner,pending_category_standardization,controlled_group_portfolio,,,SRC_WNG_002;SRC_WNG_003,verified_group_portfolio,Group attribution verified; operating entity unresolved.
+Wings Group,PT Lion Wings,Ciptadent,Ciptadent,pending_category_standardization,joint_venture,,,SRC_WNG_001,verified_joint_venture_portfolio,Excluded from strict-control primary attribution.
+Wings Group,PT Lion Wings,Kodomo,Kodomo,pending_category_standardization,joint_venture,,,SRC_WNG_001,verified_joint_venture_portfolio,Excluded from strict-control primary attribution.
+Wings Group,PT Lion Wings,Systema,Systema,pending_category_standardization,joint_venture,,,SRC_WNG_001,verified_joint_venture_portfolio,Excluded from strict-control primary attribution.
+Wings Group,PT Lion Wings,Emeron,Emeron,pending_category_standardization,joint_venture,,,SRC_WNG_001,verified_joint_venture_portfolio,Excluded from strict-control primary attribution.
+Wings Group,PT Lion Wings,Serasoft,Serasoft,pending_category_standardization,joint_venture,,,SRC_WNG_001,verified_joint_venture_portfolio,Excluded from strict-control primary attribution.
+Wings Group,PT Lion Wings,Zinc,Zinc,pending_category_standardization,joint_venture,,,SRC_WNG_001,verified_joint_venture_portfolio,Excluded from strict-control primary attribution.
+Wings Group,PT Lion Wings,Mama Lemon,Mama Lemon,pending_category_standardization,joint_venture,,,SRC_WNG_001,verified_joint_venture_portfolio,Excluded from strict-control primary attribution.
+Wings Group,PT Lion Wings,Posh,Posh,pending_category_standardization,joint_venture,,,SRC_WNG_001,verified_joint_venture_portfolio,Excluded from strict-control primary attribution.
+Wings Group,PT Glico Wings,Haku,Haku,ice cream,joint_venture,,,SRC_WNG_001,verified_joint_venture_portfolio,Excluded from strict-control primary attribution.
+Wings Group,PT Glico Wings,Waku Waku,Waku Waku,ice cream,joint_venture,,,SRC_WNG_001,verified_joint_venture_portfolio,Excluded from strict-control primary attribution.
+Wings Group,PT Glico Wings,Frost Bite,Frost Bite,ice cream,joint_venture,,,SRC_WNG_001,verified_joint_venture_portfolio,Excluded from strict-control primary attribution.
+Wings Group,PT Glico Wings,J-Cone,J-Cone,ice cream,joint_venture,,,SRC_WNG_001,verified_joint_venture_portfolio,Excluded from strict-control primary attribution.
+Wings Group,PT Calbee Wings,Potabee,Potabee,snack foods,joint_venture,,,SRC_WNG_001,verified_joint_venture_portfolio,Excluded from strict-control primary attribution.
+Wings Group,PT Calbee Wings,Krisbee,Krisbee,snack foods,joint_venture,,,SRC_WNG_001,verified_joint_venture_portfolio,Excluded from strict-control primary attribution.
+Wings Group,PT Calbee Wings,Japota,Japota,snack foods,joint_venture,,,SRC_WNG_001,verified_joint_venture_portfolio,Excluded from strict-control primary attribution.
+Indofood,ICBP Noodles Division,Indomie,Indomie,instant noodles,controlled,,,SRC_IDF_002,verified_current_control,
+Indofood,ICBP Noodles Division,Supermi,Supermi,instant noodles,controlled,,,SRC_IDF_002,verified_current_control,
+Indofood,ICBP Noodles Division,Sarimi,Sarimi,instant noodles,controlled,,,SRC_IDF_002,verified_current_control,
+Indofood,ICBP Noodles Division,Sakura,Sakura,instant noodles,controlled,,,SRC_IDF_002,verified_current_control,
+Indofood,ICBP Noodles Division,Pop Mie,Pop Mie,instant noodles,controlled,,,SRC_IDF_002,verified_current_control,
+Indofood,ICBP Noodles Division,Cap 3 Ayam,Mie Telur Cap 3 Ayam,egg noodles,controlled,,,SRC_IDF_002,verified_current_control,
+Indofood,PT Indolakto,Indomilk,Indomilk,dairy,controlled,,,SRC_IDF_002,verified_current_control,
+Indofood,PT Indolakto,Cap Enaak,Cap Enaak,dairy,controlled,,,SRC_IDF_002,verified_current_control,
+Indofood,PT Indolakto,Kremer,Kremer,dairy,controlled,,,SRC_IDF_002,verified_current_control,
+Indofood,PT Indolakto,Tiga Sapi,Tiga Sapi,dairy,controlled,,,SRC_IDF_002,verified_current_control,
+Indofood,PT Indolakto,Milkuat,Milkuat,dairy,controlled,,,SRC_IDF_002,verified_current_control,
+Indofood,PT Indolakto,Indofood Ice Cream,Indofood Ice Cream,ice cream,controlled,,,SRC_IDF_002,verified_current_control,
+Indofood,PT Indolakto,Orchid,Orchid Butter,butter,controlled,,,SRC_IDF_002,verified_current_control,
+Indofood,PT Indofood Fortuna Makmur,Chitato,Chitato,snack foods,controlled,,,SRC_IDF_002,verified_current_control,
+Indofood,PT Indofood Fortuna Makmur,Qtela,Qtela,snack foods,controlled,,,SRC_IDF_002,verified_current_control,
+Indofood,PT Indofood Fortuna Makmur,Chiki,Chiki,snack foods,controlled,,,SRC_IDF_002,verified_current_control,
+Indofood,PT Indofood Fortuna Makmur,Maxicorn,Maxicorn,snack foods,controlled,,,SRC_IDF_002,verified_current_control,
+Indofood,PT Indofood Fortuna Makmur,Jetz,Jetz,snack foods,controlled,,,SRC_IDF_002,verified_current_control,
+Indofood,ICBP Food Seasonings Division,Indofood,Indofood,food seasonings,controlled,,,SRC_IDF_002,verified_current_control,
+Indofood,ICBP Food Seasonings Division,Indofood Racik,Indofood Racik,recipe mixes,controlled,,,SRC_IDF_002,verified_current_control,
+Indofood,ICBP Food Seasonings Division,Indofood Freiss,Indofood Freiss,cordial syrup,controlled,,,SRC_IDF_002,verified_current_control,
+Indofood,ICBP Nutrition & Special Foods Division,Promina,Promina,nutrition and special foods,controlled,,,SRC_IDF_002,verified_current_control,
+Indofood,ICBP Nutrition & Special Foods Division,SUN,SUN,nutrition and special foods,controlled,,,SRC_IDF_002,verified_current_control,
+Indofood,ICBP Nutrition & Special Foods Division,Govit,Govit,nutrition and special foods,controlled,,,SRC_IDF_002,verified_current_control,
+Indofood,ICBP Nutrition & Special Foods Division,GoWell,GoWell,nutrition and special foods,controlled,,,SRC_IDF_002,verified_current_control,
+Indofood,PT Anugerah Indofood Barokah Makmur,Ichi Ocha,Ichi Ocha,ready-to-drink tea,controlled,,,SRC_IDF_002,verified_current_control,
+Indofood,PT Anugerah Indofood Barokah Makmur,Club,Club,packaged water,controlled,,,SRC_IDF_002,verified_current_control,
+Indofood,PT Anugerah Indofood Barokah Makmur,Fruitamin,Fruitamin,fruit-flavored drinks,controlled,,,SRC_IDF_002,verified_current_control,
+Indofood,Bogasari Group,Segitiga Biru,Segitiga Biru,wheat flour,controlled,,,SRC_IDF_003,verified_current_control,
+Indofood,Bogasari Group,Kunci Biru,Kunci Biru,wheat flour,controlled,,,SRC_IDF_003,verified_current_control,
+Indofood,Bogasari Group,Cakra Kembar,Cakra Kembar,wheat flour,controlled,,,SRC_IDF_003,verified_current_control,
+Indofood,Bogasari Group,La Fonte,La Fonte,pasta,controlled,,,SRC_IDF_003,verified_current_control,
+Indofood,Agribusiness - Edible Oils & Fats Division,Bimoli,Bimoli,cooking oil,controlled,,,SRC_IDF_004,verified_current_control,
+Indofood,Agribusiness - Edible Oils & Fats Division,Bimoli,Bimoli Spesial,cooking oil,controlled,,,SRC_IDF_004,verified_current_control,
+Indofood,Agribusiness - Edible Oils & Fats Division,Delima,Delima,cooking oil,controlled,,,SRC_IDF_004,verified_current_control,
+Indofood,Agribusiness - Edible Oils & Fats Division,Happy,Happy,cooking oil,controlled,,,SRC_IDF_004,verified_current_control,
+Indofood,Agribusiness - Edible Oils & Fats Division,Palmia,Palmia,margarine,controlled,,,SRC_IDF_004,verified_current_control,
+Indofood,Agribusiness - Edible Oils & Fats Division,Royal Palmia,Royal Palmia,margarine,controlled,,,SRC_IDF_004,verified_current_control,
+Indofood,Agribusiness - Edible Oils & Fats Division,Amanda,Amanda,margarine and shortening,controlled,,,SRC_IDF_004,verified_current_control,
+Mayora,PT Mayora Indah Tbk,Roma,Roma,biscuits,controlled,,,SRC_MYR_003;SRC_MYR_004,verified_consolidated_control,
+Mayora,PT Mayora Indah Tbk,Royal Choice,Royal Choice,biscuits,controlled,,,SRC_MYR_003;SRC_MYR_004,verified_consolidated_control,
+Mayora,PT Mayora Indah Tbk,Better,Better,biscuits,controlled,,,SRC_MYR_003;SRC_MYR_004,verified_consolidated_control,
+Mayora,PT Mayora Indah Tbk,Slai O Lai,Slai O Lai,biscuits,controlled,,,SRC_MYR_003;SRC_MYR_004,verified_consolidated_control,
+Mayora,PT Mayora Indah Tbk,Sari Gandum,Sari Gandum,biscuits,controlled,,,SRC_MYR_003;SRC_MYR_004,verified_consolidated_control,
+Mayora,PT Mayora Indah Tbk,Coffeejoy,Coffeejoy,biscuits,controlled,,,SRC_MYR_003;SRC_MYR_004,verified_consolidated_control,
+Mayora,PT Mayora Indah Tbk,Kopiko,Kopiko,confectionery,controlled,,,SRC_MYR_003;SRC_MYR_004,verified_consolidated_control,
+Mayora,PT Mayora Indah Tbk,KIS,KIS,confectionery,controlled,,,SRC_MYR_003;SRC_MYR_004,verified_consolidated_control,
+Mayora,PT Mayora Indah Tbk,Tamarin,Tamarin,confectionery,controlled,,,SRC_MYR_003;SRC_MYR_004,verified_consolidated_control,
+Mayora,PT Mayora Indah Tbk,Fruta Gummy,Fruta Gummy,confectionery,controlled,,,SRC_MYR_003;SRC_MYR_004,verified_consolidated_control,
+Mayora,PT Mayora Indah Tbk,Fruitivit,Fruitivit,confectionery,controlled,,,SRC_MYR_003;SRC_MYR_004,verified_consolidated_control,
+Mayora,PT Mayora Indah Tbk,Beng Beng,Beng Beng,wafer,controlled,,,SRC_MYR_003;SRC_MYR_004,verified_consolidated_control,
+Mayora,PT Mayora Indah Tbk,Astor,Astor,wafer,controlled,,,SRC_MYR_003;SRC_MYR_004,verified_consolidated_control,
+Mayora,PT Mayora Indah Tbk,Wafello,Wafello,wafer,controlled,,,SRC_MYR_003;SRC_MYR_004,verified_consolidated_control,
+Mayora,PT Mayora Indah Tbk,Superstar,Superstar Wafer,wafer,controlled,,,SRC_MYR_003;SRC_MYR_004,verified_consolidated_control,
+Mayora,PT Mayora Indah Tbk / PT Torabika Eka Semesta,Choki-Choki,Choki-Choki,chocolate,controlled,,,SRC_MYR_003;SRC_MYR_004,verified_consolidated_control,
+Mayora,PT Mayora Indah Tbk / PT Torabika Eka Semesta,Beng Beng,Drink Beng Beng,chocolate drink,controlled,,,SRC_MYR_003;SRC_MYR_004,verified_consolidated_control,
+Mayora,PT Mayora Indah Tbk / PT Torabika Eka Semesta,Dark Wonder,Dark Wonder,chocolate,controlled,,,SRC_MYR_003;SRC_MYR_004,verified_consolidated_control,
+Mayora,PT Torabika Eka Semesta,Torabika,Torabika,coffee,controlled,,,SRC_MYR_003;SRC_MYR_004,verified_consolidated_control,
+Mayora,PT Torabika Eka Semesta,Kopiko,Kopiko Brown Coffee,coffee,controlled,,,SRC_MYR_003;SRC_MYR_004,verified_consolidated_control,
+Mayora,PT Torabika Eka Semesta,Toracafe,Toracafe,coffee,controlled,,,SRC_MYR_003;SRC_MYR_004,verified_consolidated_control,
+Mayora,PT Torabika Eka Semesta,Teh Pucuk Susu,Teh Pucuk Susu Jasmine,tea-based beverage,controlled,,,SRC_MYR_003;SRC_MYR_004,verified_consolidated_control,
+Mayora,PT Torabika Eka Semesta,Energen,Energen,health food,controlled,,,SRC_MYR_003;SRC_MYR_004,verified_consolidated_control,
+Mayora,PT Torabika Eka Semesta,Prima Cereal,Prima Cereal,health food,controlled,,,SRC_MYR_003;SRC_MYR_004,verified_consolidated_control,
+Mayora,PT Tirta Fresindo Jaya,Le Minerale,Le Minerale,packaged water,related_group_affiliate,,,SRC_MYR_003;SRC_MYR_005;SRC_LMN_001,verified_related_party_operator_not_consolidated,Excluded from strict-control primary view; sensitivity only.
+Unilever Indonesia,PT Unilever Indonesia Tbk,Citra,Citra,beauty and wellbeing,controlled,,,SRC_UNV_001;SRC_UNV_003,verified_2024_portfolio_no_divestment_identified,
+Unilever Indonesia,PT Unilever Indonesia Tbk,Clear,Clear,beauty and wellbeing,controlled,,,SRC_UNV_001;SRC_UNV_003,verified_2024_portfolio_no_divestment_identified,
+Unilever Indonesia,PT Unilever Indonesia Tbk,Baby Dove,Baby Dove,beauty and wellbeing,controlled,,,SRC_UNV_001;SRC_UNV_003,verified_2024_portfolio_no_divestment_identified,
+Unilever Indonesia,PT Unilever Indonesia Tbk,Dove,Dove,beauty and wellbeing / personal care,controlled,,,SRC_UNV_001;SRC_UNV_003,verified_2024_portfolio_no_divestment_identified,
+Unilever Indonesia,PT Unilever Indonesia Tbk,Glow & Lovely,Glow & Lovely,beauty and wellbeing / personal care,controlled,,,SRC_UNV_001;SRC_UNV_003,verified_2024_portfolio_no_divestment_identified,
+Unilever Indonesia,PT Unilever Indonesia Tbk,Lifebuoy,Lifebuoy,beauty and wellbeing / personal care / home care,controlled,,,SRC_UNV_001;SRC_UNV_003,verified_2024_portfolio_no_divestment_identified,
+Unilever Indonesia,PT Unilever Indonesia Tbk,Pond's,Pond's,beauty and wellbeing,controlled,,,SRC_UNV_001;SRC_UNV_003,verified_2024_portfolio_no_divestment_identified,
+Unilever Indonesia,PT Unilever Indonesia Tbk,Sunsilk,Sunsilk,beauty and wellbeing,controlled,,,SRC_UNV_001;SRC_UNV_003,verified_2024_portfolio_no_divestment_identified,
+Unilever Indonesia,PT Unilever Indonesia Tbk,TRESemmé,TRESemmé,beauty and wellbeing,controlled,,,SRC_UNV_001;SRC_UNV_003,verified_2024_portfolio_no_divestment_identified,
+Unilever Indonesia,PT Unilever Indonesia Tbk,Vaseline,Vaseline,beauty and wellbeing,controlled,,,SRC_UNV_001;SRC_UNV_003,verified_2024_portfolio_no_divestment_identified,
+Unilever Indonesia,PT Unilever Indonesia Tbk,Zwitsal,Zwitsal,beauty and wellbeing,controlled,,,SRC_UNV_001;SRC_UNV_003,verified_2024_portfolio_no_divestment_identified,
+Unilever Indonesia,PT Unilever Indonesia Tbk,Axe,Axe,personal care,controlled,,,SRC_UNV_001;SRC_UNV_003,verified_2024_portfolio_no_divestment_identified,
+Unilever Indonesia,PT Unilever Indonesia Tbk,Close Up,Close Up,personal care,controlled,,,SRC_UNV_001;SRC_UNV_003,verified_2024_portfolio_no_divestment_identified,
+Unilever Indonesia,PT Unilever Indonesia Tbk,Pepsodent,Pepsodent,personal care,controlled,,,SRC_UNV_001;SRC_UNV_003,verified_2024_portfolio_no_divestment_identified,
+Unilever Indonesia,PT Unilever Indonesia Tbk,Lux,Lux,personal care,controlled,,,SRC_UNV_001;SRC_UNV_003,verified_2024_portfolio_no_divestment_identified,
+Unilever Indonesia,PT Unilever Indonesia Tbk,Rexona,Rexona,personal care,controlled,,,SRC_UNV_001;SRC_UNV_003,verified_2024_portfolio_no_divestment_identified,
+Unilever Indonesia,PT Unilever Indonesia Tbk,Sunlight,Sunlight,home care,controlled,,,SRC_UNV_001;SRC_UNV_003,verified_2024_portfolio_no_divestment_identified,
+Unilever Indonesia,PT Unilever Indonesia Tbk,Rinso,Rinso,home care,controlled,,,SRC_UNV_001;SRC_UNV_003,verified_2024_portfolio_no_divestment_identified,
+Unilever Indonesia,PT Unilever Indonesia Tbk,Molto,Molto,home care,controlled,,,SRC_UNV_001;SRC_UNV_003,verified_2024_portfolio_no_divestment_identified,
+Unilever Indonesia,PT Unilever Indonesia Tbk,Superpell,Superpell,home care,controlled,,,SRC_UNV_001;SRC_UNV_003,verified_2024_portfolio_no_divestment_identified,
+Unilever Indonesia,PT Unilever Indonesia Tbk,Vixal,Vixal,home care,controlled,,,SRC_UNV_001;SRC_UNV_003,verified_2024_portfolio_no_divestment_identified,
+Unilever Indonesia,PT Unilever Indonesia Tbk,Wipol,Wipol,home care,controlled,,,SRC_UNV_001;SRC_UNV_003,verified_2024_portfolio_no_divestment_identified,
+Unilever Indonesia,PT Unilever Indonesia Tbk,Bango,Bango,foods,controlled,,,SRC_UNV_001;SRC_UNV_003,verified_2024_portfolio_no_divestment_identified,
+Unilever Indonesia,PT Unilever Indonesia Tbk,Buavita,Buavita,foods,controlled,,,SRC_UNV_001;SRC_UNV_003,verified_2024_portfolio_no_divestment_identified,
+Unilever Indonesia,PT Unilever Indonesia Tbk,Royco,Royco,foods,controlled,,,SRC_UNV_001;SRC_UNV_003,verified_2024_portfolio_no_divestment_identified,
+Unilever Indonesia,PT Unilever Indonesia Tbk,SariWangi,SariWangi,tea,former_portfolio,,2026-03-02,SRC_UNV_001;SRC_UNV_002,verified_divestment,Historical portfolio; end date follows disclosed transfer.
+Unilever Indonesia,PT Unilever Indonesia Tbk,Cornetto,Cornetto,ice cream,former_portfolio,,2025-12-08,SRC_UNV_001;SRC_UNV_002,verified_divestment,Historical portfolio; end date follows disclosed transfer.
+Unilever Indonesia,PT Unilever Indonesia Tbk,Magnum,Magnum,ice cream,former_portfolio,,2025-12-08,SRC_UNV_001;SRC_UNV_002,verified_divestment,Historical portfolio; end date follows disclosed transfer.
+Unilever Indonesia,PT Unilever Indonesia Tbk,Paddle Pop,Paddle Pop,ice cream,former_portfolio,,2025-12-08,SRC_UNV_001;SRC_UNV_002,verified_divestment,Historical portfolio; end date follows disclosed transfer.
+Unilever Indonesia,PT Unilever Indonesia Tbk,Wall's,Wall's,ice cream,former_portfolio,,2025-12-08,SRC_UNV_001;SRC_UNV_002,verified_divestment,Historical portfolio; end date follows disclosed transfer.
+Unilever Indonesia,PT Unilever Indonesia Tbk,Knorr,Knorr,foodservice,controlled_context_only,,,SRC_UNV_001,verified_2024_ufs_portfolio,Context only; excluded from primary household FMCG universe.
+Unilever Indonesia,PT Unilever Indonesia Tbk,Hellmann's,Hellmann's,foodservice,controlled_context_only,,,SRC_UNV_001,verified_2024_ufs_portfolio,Context only; excluded from primary household FMCG universe.
+Unilever Indonesia,PT Unilever Indonesia Tbk,Lipton,Lipton,foodservice,controlled_context_only,,,SRC_UNV_001,verified_2024_ufs_portfolio,Context only; excluded from primary household FMCG universe.
