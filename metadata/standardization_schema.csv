@@ -1,0 +1,52 @@
+field_order,field_name,data_type,required,allowed_values,description,source_or_derivation
+1,observation_id,string,yes,,Unique canonical observation identifier.,Generated during long-form standardization.
+2,source_native_file,string,yes,,Repository-relative source-native file path.,Input provenance.
+3,source_native_record_id,string,yes,,Source-native record or fact identifier.,record_id or fact_id.
+4,source_native_row_number,integer,yes,,One-based data-row number in the source-native file.,Derived without altering source order.
+5,source_value_column,string,conditional,,Original wide value column; blank for already long-form facts.,Required for Top Brand year cells.
+6,universe_id,string,yes,,Pre-specified acquisition-universe identifier.,Joined from performance_acquisition_universe.csv.
+7,source_id,string,yes,,Source-registry identifier or semicolon-delimited identifiers when evidence is combined.,Joined from source registry and inventory.
+8,source_family,string,yes,Top Brand;Brand Footprint,Source-native measurement family.,Preserved from acquisition metadata.
+9,publisher,string,yes,,Source publisher.,Joined from source_registry.csv.
+10,source_url,string,yes,,Exact public source URL used for the observation.,Preserved from source-native data.
+11,retrieval_date,date,yes,,Date the public fact was retrieved.,Preserved from source-native data.
+12,edition,string,conditional,,Published edition label when the source uses editions.,Required for Brand Footprint facts.
+13,publication_year,integer,conditional,,Year the edition or survey result was published.,Derived only from documented source metadata.
+14,reference_period,string,yes,,Consumer observation period or survey year; never silently replaced by publication year.,Preserved or explicitly derived.
+15,survey_phase,string,conditional,,Source-native survey phase when exposed.,Preserved; unavailable phase remains explicit.
+16,geography,string,yes,,Geographic coverage of the observation.,Preserved from source and methodology metadata.
+17,methodology_cluster,string,yes,top_brand_historical_unverified;top_brand_current_documented;brand_footprint_urban;brand_footprint_national;brand_footprint_partial;unknown,Methodology and coverage segment used to prevent invalid longitudinal joins.,Assigned from performance source inventory.
+18,methodology_status,string,yes,documented;partially_documented;historical_not_verified;not_available,Documentation status for the observation's methodology.,Assigned from performance source inventory.
+19,source_group_label,string,yes,,Group label in the source-native record.,Preserved verbatim.
+20,canonical_group,string,yes,Wings Group;Indofood;Mayora;Unilever Indonesia,Canonical focal group.,Mapped through brand_label_crosswalk.csv.
+21,operating_company,string,yes,,Verified operating company or explicit unresolved entity label.,Joined from ownership_registry.csv.
+22,attribution_scope,string,yes,strict_control;extended_group_sensitivity_only;historical_only;context_only,Permitted analytical attribution scope.,Mapped before any group aggregation.
+23,relationship_type,string,yes,controlled;controlled_group_portfolio;joint_venture;related_group_affiliate;former_portfolio;controlled_context_only;unclear,Ownership or control relationship valid for attribution.,Joined from ownership_registry.csv.
+24,ownership_start,date,no,,Known ownership-validity start date.,Preserved from ownership_registry.csv.
+25,ownership_end,date,no,,Known ownership-validity end date.,Preserved from ownership_registry.csv.
+26,ownership_period_status,string,yes,valid;valid_with_caveat;invalid;unresolved,Whether ownership is valid for the observation reference period.,Derived using period-aware attribution rules.
+27,source_brand_label,string,yes,,Brand label exactly as published by the source.,Preserved verbatim.
+28,canonical_brand_family,string,conditional,,Canonical controlled brand family; blank when mapping is prohibited.,Mapped through brand_label_crosswalk.csv.
+29,canonical_brand_key,string,conditional,,Stable group and brand-family key.,Generated only after a valid brand mapping.
+30,brand_identity_status,string,yes,direct_brand_match;family_level_match;canonical_family_match_with_source_label_change;exact_source_label_category_bound;related_party_affiliate;unmapped_name_similarity_prohibited;unresolved,Identity treatment applied to the source label.,Mapped with source and category conditions.
+31,brand_mapping_status,string,yes,direct;resolved_with_caveat;pending_identity_validation;blocked_name_similarity;sensitivity_only,Operational status of the brand-label mapping.,Mapped through brand_label_crosswalk.csv.
+32,source_category,string,no,,Source-native category label.,Preserved verbatim.
+33,source_subcategory,string,no,,Source-native subcategory label.,Preserved verbatim.
+34,source_subcategory_id,string,no,,Source-native subcategory identifier.,Preserved as text.
+35,canonical_sector,string,conditional,Food;Beverages;Dairy;Home Care;Personal Care,One of the five primary market sectors when product-category evidence is sufficient.,Mapped through category_crosswalk.csv.
+36,canonical_category,string,conditional,,Canonical product category.,Mapped through category_crosswalk.csv.
+37,canonical_subcategory,string,conditional,,Canonical product subcategory.,Mapped through category_crosswalk.csv.
+38,category_mapping_status,string,yes,direct;resolved_with_caveat;requires_brand_level_mapping;context_only;excluded_context_only;unresolved,Status of the category mapping.,Mapped through category_crosswalk.csv.
+39,metric,string,yes,TBI;brand_rank;growth_status;selection_status;household_reach_lower_bound;top100_entry;rank_change,Source-native metric; metrics are never pooled into one scale.,Preserved from source-native data.
+40,value,number,no,,Numeric value when the observation is numeric.,Preserved without imputation.
+41,value_text,string,no,,Source-native qualitative fact when no numeric value is available.,Derived only from the documented fact statement.
+42,unit,string,yes,percent_index_points;rank;text_status;percent_households;boolean;positions,Source-native measurement unit.,Preserved verbatim.
+43,observation_status,string,yes,observed;observed_lower_bound;not_available;context_only,Availability and interpretation status.,Explicitly assigned; missing is never zero.
+44,missingness_reason,string,no,,Documented reason for an unavailable value.,Derived from source-native blank status or source note.
+45,value_semantics,string,yes,exact_numeric;ordinal_rank;lower_bound;boolean_indicator;qualitative_status;unavailable,Semantic interpretation of the stored value.,"Derived from metric, unit, and observation status."
+46,bound_type,string,yes,none;lower_bound;upper_bound;interval;not_applicable,Bound semantics for non-exact values.,Derived without converting bounds into exact estimates.
+47,uncertainty_status,string,yes,not_reported;qualitative_caveat;not_applicable,Uncertainty information available from the source.,Preserved explicitly.
+48,comparability_class,string,yes,directly_comparable;comparable_with_transformation;comparable_with_caveat;context_only;not_comparable,Permitted comparison class.,Assigned from comparability_rules.csv.
+49,comparability_rule_id,string,yes,,Rule identifier supporting the assigned class.,Joined from comparability_rules.csv.
+50,comparability_reason,string,yes,,Record-specific reason for the comparison treatment.,Derived from matched rule and caveats.
+51,notes,string,no,,Additional source-specific restrictions or provenance notes.,Preserved or analytically documented.
