@@ -1,0 +1,37 @@
+check_id,validation_area,check_description,result,status,critical_failure,required_treatment
+S6E001,input_integrity,All 11 governed inputs match locked SHA-256 values.,11/11 inputs passed,passed,no,Carry the validated evidence boundary forward.
+S6E002,prior_stage_gate,Stage 6D final gate remains PASS_WITH_CAVEAT.,PASS_WITH_CAVEAT,passed_with_caveat,no,Carry the validated evidence boundary forward.
+S6E003,action_coverage,All 22 Stage 6C actions are represented in bounded cases.,22/22 actions,passed,no,Carry the validated evidence boundary forward.
+S6E004,claim_coverage,All six company-attribution claims are represented in bounded cases.,6/6 claims,passed,no,Carry the validated evidence boundary forward.
+S6E005,case_identity,Fourteen bounded cases are unique.,14/14 unique,passed,no,Carry the validated evidence boundary forward.
+S6E006,group_coverage,All four focal groups have group synthesis.,4/4 groups,passed,no,Carry the validated evidence boundary forward.
+S6E007,research_question_coverage,All 11 pre-specified research questions are answered.,11/11 questions,passed,no,Carry the validated evidence boundary forward.
+S6E008,cross_track_coverage,Six cross-track synthesis dimensions are retained.,6 rows,passed,no,Carry the validated evidence boundary forward.
+S6E009,finding_registry,Seven bounded findings are registered.,7 findings,passed,no,Carry the validated evidence boundary forward.
+S6E010,direct_pair,Sunlight Q1 2025 distribution remains the only direct descriptive pair.,1 direct pair,passed_with_caveat,no,Carry the validated evidence boundary forward.
+S6E011,distribution_semantics,"Direct-store coverage remains distribution availability, not consumer reach.",retained,passed,no,Carry the validated evidence boundary forward.
+S6E012,temporal_boundary,Temporal alignment is not upgraded to causation.,retained,passed,no,Carry the validated evidence boundary forward.
+S6E013,company_claim_boundary,Company explanations remain company-reported.,6/6 constrained,passed,no,Carry the validated evidence boundary forward.
+S6E014,context_boundary,Ice Cream separation remains reporting-perimeter context.,retained,passed,no,Carry the validated evidence boundary forward.
+S6E015,missingness,Missing compatible outcomes remain evidence boundaries.,preserved,passed,no,Carry the validated evidence boundary forward.
+S6E016,wings_neutrality,Wings disclosure limitations are not interpreted as weak performance.,retained,passed_with_caveat,no,Carry the validated evidence boundary forward.
+S6E017,indofood_action_gap,Indofood/ICBP explanations remain company-reported without matching discrete actions.,retained,passed_with_caveat,no,Carry the validated evidence boundary forward.
+S6E018,indofood_scope,Indofood parent scope remains broader than packaged FMCG.,retained,passed_with_caveat,no,Carry the validated evidence boundary forward.
+S6E019,icbp_geography,ICBP mixed geography is retained.,retained,passed_with_caveat,no,Carry the validated evidence boundary forward.
+S6E020,mayora_geography,Mayora mixed geography is retained.,retained,passed_with_caveat,no,Carry the validated evidence boundary forward.
+S6E021,mayora_input_costs,Raw-material cost pressure remains an alternative factor.,retained,passed_with_caveat,no,Carry the validated evidence boundary forward.
+S6E022,mayora_buyback,Buyback remains capital-allocation context without consumer outcome.,retained,passed,no,Carry the validated evidence boundary forward.
+S6E023,unilever_brand_granularity,Brand actions without brand results are not assigned company-wide outcomes.,retained,passed,no,Carry the validated evidence boundary forward.
+S6E024,unilever_volume_claim,Small-pack volume effect remains company-reported without OUT09.,retained,passed_with_caveat,no,Carry the validated evidence boundary forward.
+S6E025,unilever_interim_scope,Sunlight direct pair remains interim launch evidence.,retained,passed_with_caveat,no,Carry the validated evidence boundary forward.
+S6E026,unilever_comparator_scope,FY2025 continuing-operation context uses re-presented FY2024 comparator.,retained,passed,no,Carry the validated evidence boundary forward.
+S6E027,track_a_dimensions,"Track A breadth, leadership, stability/momentum, persistence, and sensitivity conclusions remain unchanged.",unchanged,passed,no,Carry the validated evidence boundary forward.
+S6E028,overall_winner,A single overall winner remains not defensible.,unchanged,passed,no,Carry the validated evidence boundary forward.
+S6E029,cross_group_ranking,Evidence-status counts are not used as strategy-effect rankings.,none created,passed,no,Carry the validated evidence boundary forward.
+S6E030,causal_boundary,No case or finding upgrades evidence to causal identification.,0 upgrades,passed,no,Carry the validated evidence boundary forward.
+S6E031,market_share_boundary,No non-market-share metric is relabelled as market share.,0 upgrades,passed,no,Carry the validated evidence boundary forward.
+S6E032,composite_boundary,"No score, normalization, weighting, or composite is created.",none created,passed,no,Carry the validated evidence boundary forward.
+S6E033,reporting_boundary,"No report, README, or visualization is created.",none created,passed,no,Carry the validated evidence boundary forward.
+S6E034,exception_registry,Twelve interpretation exceptions are retained.,12 exceptions,passed_with_caveat,no,Carry the validated evidence boundary forward.
+S6E035,output_completeness,All eight canonical Stage 6E tables are prepared.,8 tables,passed,no,Carry the validated evidence boundary forward.
+S6E036,stage_gate,Bounded interpretation and cross-track synthesis are complete enough for visualization and final findings consolidation.,PASS_WITH_CAVEAT,passed_with_caveat,no,Carry the validated evidence boundary forward.
