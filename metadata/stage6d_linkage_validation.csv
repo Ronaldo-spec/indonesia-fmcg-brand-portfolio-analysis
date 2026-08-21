@@ -1,0 +1,41 @@
+check_id,validation_area,check_description,result,status,critical_failure,required_treatment
+S6D001,input_integrity,All 12 governed Stage 4–6C inputs match locked SHA-256 values.,12/12 inputs passed,passed,no,Stop Stage 6D if any input differs.
+S6D002,prior_stage_gate,Stage 6C final gate remains PASS_WITH_CAVEAT.,PASS_WITH_CAVEAT,passed_with_caveat,no,Carry Stage 6C caveats forward.
+S6D003,action_universe,All 22 Stage 6C actions are screened exactly once.,22/22 actions,passed,no,Do not select only favorable actions.
+S6D004,gate_registry,Frozen linkage registry contains LNK01–LNK16.,16/16 gates,passed,no,Use all pre-specified gates.
+S6D005,gate_matrix,Every action is evaluated against all 16 gates.,352/352 rows,passed,no,Do not omit failed/conditional gates.
+S6D006,strategy_taxonomy,All strategy IDs remain within STR01–STR09.,valid,passed,no,Reject post-hoc classes.
+S6D007,result_provenance,All nonblank result IDs exist in Stage 6C.,valid,passed,no,Do not manufacture outcomes.
+S6D008,claim_provenance,All nonblank companion claims exist in Stage 6C.,valid,passed,no,Keep company claims separate.
+S6D009,direct_support_count,Exactly one action-result pair meets direct descriptive screening.,1,passed_with_caveat,no,Do not interpret the count as effectiveness.
+S6D010,direct_support_scope,Direct pair is Sunlight Q1 2025 distribution availability.,UNV_008 -> OUT17,passed,no,Limit claim to reported outlet coverage.
+S6D011,temporal_alignment,Four pairs are temporal alignment only.,4,passed_with_caveat,no,Do not upgrade to causation.
+S6D012,company_reported_action_screening,Two action screenings depend on company-reported explanations.,2,passed_with_caveat,no,Keep ATTR07/company_reported.
+S6D013,context_only_perimeter,One ownership action is reporting-perimeter context only.,1,passed,no,Do not treat disposal as a performance cause.
+S6D014,not_assessable,Fourteen actions lack a compatible result.,14,passed_with_caveat,no,Missing compatible results are valid limitations.
+S6D015,company_claim_universe,All six company-attribution claims are screened.,6/6,passed,no,Do not omit inconvenient claims.
+S6D016,company_claim_status,All six remain company_reported.,6/6,passed,no,No independent causal upgrade.
+S6D017,indofood_claim_boundary,Indofood/ICBP claims lack matching discrete actions.,3 claims constrained,passed_with_caveat,no,Report as company-reported only.
+S6D018,mayora_pricing_boundary,Mayora pricing action and adjustment claim remain related but non-identical.,retained,passed_with_caveat,no,Do not collapse wording.
+S6D019,unilever_volume_boundary,Unilever small-pack volume claim lacks OUT09 observation.,not assessable independently,passed_with_caveat,no,Keep claimed effect company-reported.
+S6D020,stage4_context_coverage,All four focal groups receive Stage 4 context screening.,4/4,passed,no,Do not silently upgrade group findings.
+S6D021,stage4_snapshot_boundary,2026 snapshot is not bridged to 2022–2025 strategy window.,retained,passed,no,Keep 2026 separate.
+S6D022,wings_disclosure_neutrality,Wings not-assessable rows are not interpreted as weak performance.,retained,passed_with_caveat,no,Do not rank by assessable-link count.
+S6D023,mayora_geography,Mayora candidate links retain mixed-geography caveats.,retained,passed_with_caveat,no,Do not infer Indonesian household demand.
+S6D024,unilever_brand_alignment,Brand actions without brand outcomes are not linked to company-wide results.,retained,passed,no,Preserve granularity.
+S6D025,distribution_semantics,"Direct-store coverage remains distribution availability, not consumer reach.",retained,passed,no,Do not relabel metric.
+S6D026,unilever_comparator_scope,FY2025 continuing-operation screening uses re-presented FY2024 comparator.,retained,passed,no,Keep original and represented observations separate.
+S6D027,market_share_boundary,No market-share outcome is inferred.,0 inferred links,passed,no,Require explicit market-share measurement.
+S6D028,missingness,"Missing outcomes stay blank, not zero-filled.",preserved,passed,no,Do not impute disclosure gaps.
+S6D029,lag_policy,No post-hoc lagged linkage is introduced.,0 lagged links,passed,no,Later lag requires pre-specified rationale.
+S6D030,alternative_factors,Mayora raw-material cost pressure remains an alternative factor.,retained,passed_with_caveat,no,Do not over-attribute pricing/sourcing.
+S6D031,cross_company_ranking,No linkage count becomes a cross-company strategy-effect ranking.,none,passed,no,Use counts as evidence diagnostics only.
+S6D032,causal_boundary,No linkage is labelled causal.,none upgraded,passed,no,Causation requires identification design.
+S6D033,composite_boundary,No strategy score or weighting is created.,none,passed,no,Keep dimension/case level.
+S6D034,overall_winner_boundary,Stage 4 overall-winner conclusion is unchanged.,unchanged,passed,no,Revision requires comparable pre-specified framework.
+S6D035,research_question_alignment,Screening addresses SRQ03–SRQ10 and preserves SRQ11 governance.,covered,passed,no,Do not treat screening as final synthesis.
+S6D036,exception_registry,Twelve screening caveats are registered.,12,passed_with_caveat,no,Carry limitations forward.
+S6D037,reporting_boundary,No report or README is created.,none,passed,no,Defer reporting.
+S6D038,raw_source_boundary,No raw copyrighted source is written.,none,passed,no,Keep reference-only source treatment.
+S6D039,screening_summary,Summary reconciles to 22 actions and six claims.,reconciled,passed,no,Use summary only for diagnostics.
+S6D040,stage_gate,Linkage eligibility screening is complete enough for bounded interpretation and synthesis.,PASS_WITH_CAVEAT,passed_with_caveat,no,"Carry disclosure asymmetry, mixed geography, company-claim labels, missing outcomes, Stage 4 granularity limits, and non-causal boundaries into Stage 6E."

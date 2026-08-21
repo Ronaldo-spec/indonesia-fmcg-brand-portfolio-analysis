@@ -1,0 +1,353 @@
+screen_id,action_id,linkage_rule_id,eligibility_gate,gate_type,gate_result,gate_interpretation
+S6DLNK001,S6CACT_WNG_001,LNK01,documented_action,mandatory,met,A documented period-bounded action exists.
+S6DLNK001,S6CACT_WNG_001,LNK02,ownership_validity,mandatory,met,Stage 6C retained the action within the valid ownership perimeter.
+S6DLNK001,S6CACT_WNG_001,LNK03,entity_alignment,mandatory_for_direct_link,not_met,No compatible result exists for entity alignment.
+S6DLNK001,S6CACT_WNG_001,LNK04,geography_alignment,mandatory_for_indonesia_claim,not_assessable,No result exists for geography alignment.
+S6DLNK001,S6CACT_WNG_001,LNK05,brand_category_alignment,mandatory_for_brand_category_claim,not_met,No compatible brand/category result is available.
+S6DLNK001,S6CACT_WNG_001,LNK06,temporal_order,mandatory,not_assessable,Temporal linkage cannot be assessed without a result.
+S6DLNK001,S6CACT_WNG_001,LNK07,lag_rationale,mandatory_when_lagged,not_applicable,No lagged linkage is proposed.
+S6DLNK001,S6CACT_WNG_001,LNK08,outcome_definition,mandatory,not_met,No compatible outcome observation is available.
+S6DLNK001,S6CACT_WNG_001,LNK09,baseline_or_comparator,mandatory_for_change_claim,not_applicable,No change-from-baseline claim is proposed.
+S6DLNK001,S6CACT_WNG_001,LNK10,alternative_factors,mandatory_for_interpretation,not_applicable_without_result,No performance interpretation is attempted.
+S6DLNK001,S6CACT_WNG_001,LNK11,company_claim_label,mandatory,not_applicable,No company-attributed explanation is used.
+S6DLNK001,S6CACT_WNG_001,LNK12,missingness,mandatory,met,Missing results remain missing and are never zero-filled.
+S6DLNK001,S6CACT_WNG_001,LNK13,cross_company_comparability,mandatory_for_cross_group_ranking,not_applicable_within_company_only,No cross-group strategy-effect ranking is performed.
+S6DLNK001,S6CACT_WNG_001,LNK14,private_disclosure_neutrality,mandatory,met,Disclosure coverage is not interpreted as company performance.
+S6DLNK001,S6CACT_WNG_001,LNK15,causal_claim_boundary,mandatory,met,"Allowed claims remain descriptive, contextual, or company-reported."
+S6DLNK001,S6CACT_WNG_001,LNK16,no_composite_upgrade,mandatory,met,"No action evidence becomes a score, weight, or overall winner."
+S6DLNK002,S6CACT_WNG_002,LNK01,documented_action,mandatory,met,A documented period-bounded action exists.
+S6DLNK002,S6CACT_WNG_002,LNK02,ownership_validity,mandatory,met,Stage 6C retained the action within the valid ownership perimeter.
+S6DLNK002,S6CACT_WNG_002,LNK03,entity_alignment,mandatory_for_direct_link,not_met,No compatible result exists for entity alignment.
+S6DLNK002,S6CACT_WNG_002,LNK04,geography_alignment,mandatory_for_indonesia_claim,not_assessable,No result exists for geography alignment.
+S6DLNK002,S6CACT_WNG_002,LNK05,brand_category_alignment,mandatory_for_brand_category_claim,not_met,No compatible brand/category result is available.
+S6DLNK002,S6CACT_WNG_002,LNK06,temporal_order,mandatory,not_assessable,Temporal linkage cannot be assessed without a result.
+S6DLNK002,S6CACT_WNG_002,LNK07,lag_rationale,mandatory_when_lagged,not_applicable,No lagged linkage is proposed.
+S6DLNK002,S6CACT_WNG_002,LNK08,outcome_definition,mandatory,not_met,No compatible outcome observation is available.
+S6DLNK002,S6CACT_WNG_002,LNK09,baseline_or_comparator,mandatory_for_change_claim,not_applicable,No change-from-baseline claim is proposed.
+S6DLNK002,S6CACT_WNG_002,LNK10,alternative_factors,mandatory_for_interpretation,not_applicable_without_result,No performance interpretation is attempted.
+S6DLNK002,S6CACT_WNG_002,LNK11,company_claim_label,mandatory,not_applicable,No company-attributed explanation is used.
+S6DLNK002,S6CACT_WNG_002,LNK12,missingness,mandatory,met,Missing results remain missing and are never zero-filled.
+S6DLNK002,S6CACT_WNG_002,LNK13,cross_company_comparability,mandatory_for_cross_group_ranking,not_applicable_within_company_only,No cross-group strategy-effect ranking is performed.
+S6DLNK002,S6CACT_WNG_002,LNK14,private_disclosure_neutrality,mandatory,met,Disclosure coverage is not interpreted as company performance.
+S6DLNK002,S6CACT_WNG_002,LNK15,causal_claim_boundary,mandatory,met,"Allowed claims remain descriptive, contextual, or company-reported."
+S6DLNK002,S6CACT_WNG_002,LNK16,no_composite_upgrade,mandatory,met,"No action evidence becomes a score, weight, or overall winner."
+S6DLNK003,S6CACT_WNG_003,LNK01,documented_action,mandatory,met,A documented period-bounded action exists.
+S6DLNK003,S6CACT_WNG_003,LNK02,ownership_validity,mandatory,met,Stage 6C retained the action within the valid ownership perimeter.
+S6DLNK003,S6CACT_WNG_003,LNK03,entity_alignment,mandatory_for_direct_link,not_met,No compatible result exists for entity alignment.
+S6DLNK003,S6CACT_WNG_003,LNK04,geography_alignment,mandatory_for_indonesia_claim,not_assessable,No result exists for geography alignment.
+S6DLNK003,S6CACT_WNG_003,LNK05,brand_category_alignment,mandatory_for_brand_category_claim,not_met,No compatible brand/category result is available.
+S6DLNK003,S6CACT_WNG_003,LNK06,temporal_order,mandatory,not_assessable,Temporal linkage cannot be assessed without a result.
+S6DLNK003,S6CACT_WNG_003,LNK07,lag_rationale,mandatory_when_lagged,not_applicable,No lagged linkage is proposed.
+S6DLNK003,S6CACT_WNG_003,LNK08,outcome_definition,mandatory,not_met,No compatible outcome observation is available.
+S6DLNK003,S6CACT_WNG_003,LNK09,baseline_or_comparator,mandatory_for_change_claim,not_applicable,No change-from-baseline claim is proposed.
+S6DLNK003,S6CACT_WNG_003,LNK10,alternative_factors,mandatory_for_interpretation,not_applicable_without_result,No performance interpretation is attempted.
+S6DLNK003,S6CACT_WNG_003,LNK11,company_claim_label,mandatory,not_applicable,No company-attributed explanation is used.
+S6DLNK003,S6CACT_WNG_003,LNK12,missingness,mandatory,met,Missing results remain missing and are never zero-filled.
+S6DLNK003,S6CACT_WNG_003,LNK13,cross_company_comparability,mandatory_for_cross_group_ranking,not_applicable_within_company_only,No cross-group strategy-effect ranking is performed.
+S6DLNK003,S6CACT_WNG_003,LNK14,private_disclosure_neutrality,mandatory,met,Disclosure coverage is not interpreted as company performance.
+S6DLNK003,S6CACT_WNG_003,LNK15,causal_claim_boundary,mandatory,met,"Allowed claims remain descriptive, contextual, or company-reported."
+S6DLNK003,S6CACT_WNG_003,LNK16,no_composite_upgrade,mandatory,met,"No action evidence becomes a score, weight, or overall winner."
+S6DLNK004,S6CACT_WNG_004,LNK01,documented_action,mandatory,met,A documented period-bounded action exists.
+S6DLNK004,S6CACT_WNG_004,LNK02,ownership_validity,mandatory,met,Stage 6C retained the action within the valid ownership perimeter.
+S6DLNK004,S6CACT_WNG_004,LNK03,entity_alignment,mandatory_for_direct_link,not_met,No compatible result exists for entity alignment.
+S6DLNK004,S6CACT_WNG_004,LNK04,geography_alignment,mandatory_for_indonesia_claim,not_assessable,No result exists for geography alignment.
+S6DLNK004,S6CACT_WNG_004,LNK05,brand_category_alignment,mandatory_for_brand_category_claim,not_met,No compatible brand/category result is available.
+S6DLNK004,S6CACT_WNG_004,LNK06,temporal_order,mandatory,not_assessable,Temporal linkage cannot be assessed without a result.
+S6DLNK004,S6CACT_WNG_004,LNK07,lag_rationale,mandatory_when_lagged,not_applicable,No lagged linkage is proposed.
+S6DLNK004,S6CACT_WNG_004,LNK08,outcome_definition,mandatory,not_met,No compatible outcome observation is available.
+S6DLNK004,S6CACT_WNG_004,LNK09,baseline_or_comparator,mandatory_for_change_claim,not_applicable,No change-from-baseline claim is proposed.
+S6DLNK004,S6CACT_WNG_004,LNK10,alternative_factors,mandatory_for_interpretation,not_applicable_without_result,No performance interpretation is attempted.
+S6DLNK004,S6CACT_WNG_004,LNK11,company_claim_label,mandatory,not_applicable,No company-attributed explanation is used.
+S6DLNK004,S6CACT_WNG_004,LNK12,missingness,mandatory,met,Missing results remain missing and are never zero-filled.
+S6DLNK004,S6CACT_WNG_004,LNK13,cross_company_comparability,mandatory_for_cross_group_ranking,not_applicable_within_company_only,No cross-group strategy-effect ranking is performed.
+S6DLNK004,S6CACT_WNG_004,LNK14,private_disclosure_neutrality,mandatory,met,Disclosure coverage is not interpreted as company performance.
+S6DLNK004,S6CACT_WNG_004,LNK15,causal_claim_boundary,mandatory,met,"Allowed claims remain descriptive, contextual, or company-reported."
+S6DLNK004,S6CACT_WNG_004,LNK16,no_composite_upgrade,mandatory,met,"No action evidence becomes a score, weight, or overall winner."
+S6DLNK005,S6CACT_WNG_005,LNK01,documented_action,mandatory,met,A documented period-bounded action exists.
+S6DLNK005,S6CACT_WNG_005,LNK02,ownership_validity,mandatory,met,Stage 6C retained the action within the valid ownership perimeter.
+S6DLNK005,S6CACT_WNG_005,LNK03,entity_alignment,mandatory_for_direct_link,not_met,No compatible result exists for entity alignment.
+S6DLNK005,S6CACT_WNG_005,LNK04,geography_alignment,mandatory_for_indonesia_claim,not_assessable,No result exists for geography alignment.
+S6DLNK005,S6CACT_WNG_005,LNK05,brand_category_alignment,mandatory_for_brand_category_claim,not_met,No compatible brand/category result is available.
+S6DLNK005,S6CACT_WNG_005,LNK06,temporal_order,mandatory,not_assessable,Temporal linkage cannot be assessed without a result.
+S6DLNK005,S6CACT_WNG_005,LNK07,lag_rationale,mandatory_when_lagged,not_applicable,No lagged linkage is proposed.
+S6DLNK005,S6CACT_WNG_005,LNK08,outcome_definition,mandatory,not_met,No compatible outcome observation is available.
+S6DLNK005,S6CACT_WNG_005,LNK09,baseline_or_comparator,mandatory_for_change_claim,not_applicable,No change-from-baseline claim is proposed.
+S6DLNK005,S6CACT_WNG_005,LNK10,alternative_factors,mandatory_for_interpretation,not_applicable_without_result,No performance interpretation is attempted.
+S6DLNK005,S6CACT_WNG_005,LNK11,company_claim_label,mandatory,not_applicable,No company-attributed explanation is used.
+S6DLNK005,S6CACT_WNG_005,LNK12,missingness,mandatory,met,Missing results remain missing and are never zero-filled.
+S6DLNK005,S6CACT_WNG_005,LNK13,cross_company_comparability,mandatory_for_cross_group_ranking,not_applicable_within_company_only,No cross-group strategy-effect ranking is performed.
+S6DLNK005,S6CACT_WNG_005,LNK14,private_disclosure_neutrality,mandatory,met,Disclosure coverage is not interpreted as company performance.
+S6DLNK005,S6CACT_WNG_005,LNK15,causal_claim_boundary,mandatory,met,"Allowed claims remain descriptive, contextual, or company-reported."
+S6DLNK005,S6CACT_WNG_005,LNK16,no_composite_upgrade,mandatory,met,"No action evidence becomes a score, weight, or overall winner."
+S6DLNK006,S6CACT_WNG_006,LNK01,documented_action,mandatory,met,A documented period-bounded action exists.
+S6DLNK006,S6CACT_WNG_006,LNK02,ownership_validity,mandatory,met,Stage 6C retained the action within the valid ownership perimeter.
+S6DLNK006,S6CACT_WNG_006,LNK03,entity_alignment,mandatory_for_direct_link,not_met,No compatible result exists for entity alignment.
+S6DLNK006,S6CACT_WNG_006,LNK04,geography_alignment,mandatory_for_indonesia_claim,not_assessable,No result exists for geography alignment.
+S6DLNK006,S6CACT_WNG_006,LNK05,brand_category_alignment,mandatory_for_brand_category_claim,not_met,No compatible brand/category result is available.
+S6DLNK006,S6CACT_WNG_006,LNK06,temporal_order,mandatory,not_assessable,Temporal linkage cannot be assessed without a result.
+S6DLNK006,S6CACT_WNG_006,LNK07,lag_rationale,mandatory_when_lagged,not_applicable,No lagged linkage is proposed.
+S6DLNK006,S6CACT_WNG_006,LNK08,outcome_definition,mandatory,not_met,No compatible outcome observation is available.
+S6DLNK006,S6CACT_WNG_006,LNK09,baseline_or_comparator,mandatory_for_change_claim,not_applicable,No change-from-baseline claim is proposed.
+S6DLNK006,S6CACT_WNG_006,LNK10,alternative_factors,mandatory_for_interpretation,not_applicable_without_result,No performance interpretation is attempted.
+S6DLNK006,S6CACT_WNG_006,LNK11,company_claim_label,mandatory,not_applicable,No company-attributed explanation is used.
+S6DLNK006,S6CACT_WNG_006,LNK12,missingness,mandatory,met,Missing results remain missing and are never zero-filled.
+S6DLNK006,S6CACT_WNG_006,LNK13,cross_company_comparability,mandatory_for_cross_group_ranking,not_applicable_within_company_only,No cross-group strategy-effect ranking is performed.
+S6DLNK006,S6CACT_WNG_006,LNK14,private_disclosure_neutrality,mandatory,met,Disclosure coverage is not interpreted as company performance.
+S6DLNK006,S6CACT_WNG_006,LNK15,causal_claim_boundary,mandatory,met,"Allowed claims remain descriptive, contextual, or company-reported."
+S6DLNK006,S6CACT_WNG_006,LNK16,no_composite_upgrade,mandatory,met,"No action evidence becomes a score, weight, or overall winner."
+S6DLNK007,S6CACT_WNG_007,LNK01,documented_action,mandatory,met,A documented period-bounded action exists.
+S6DLNK007,S6CACT_WNG_007,LNK02,ownership_validity,mandatory,met,Stage 6C retained the action within the valid ownership perimeter.
+S6DLNK007,S6CACT_WNG_007,LNK03,entity_alignment,mandatory_for_direct_link,not_met,No compatible result exists for entity alignment.
+S6DLNK007,S6CACT_WNG_007,LNK04,geography_alignment,mandatory_for_indonesia_claim,not_assessable,No result exists for geography alignment.
+S6DLNK007,S6CACT_WNG_007,LNK05,brand_category_alignment,mandatory_for_brand_category_claim,not_met,No compatible brand/category result is available.
+S6DLNK007,S6CACT_WNG_007,LNK06,temporal_order,mandatory,not_assessable,Temporal linkage cannot be assessed without a result.
+S6DLNK007,S6CACT_WNG_007,LNK07,lag_rationale,mandatory_when_lagged,not_applicable,No lagged linkage is proposed.
+S6DLNK007,S6CACT_WNG_007,LNK08,outcome_definition,mandatory,not_met,No compatible outcome observation is available.
+S6DLNK007,S6CACT_WNG_007,LNK09,baseline_or_comparator,mandatory_for_change_claim,not_applicable,No change-from-baseline claim is proposed.
+S6DLNK007,S6CACT_WNG_007,LNK10,alternative_factors,mandatory_for_interpretation,not_applicable_without_result,No performance interpretation is attempted.
+S6DLNK007,S6CACT_WNG_007,LNK11,company_claim_label,mandatory,not_applicable,No company-attributed explanation is used.
+S6DLNK007,S6CACT_WNG_007,LNK12,missingness,mandatory,met,Missing results remain missing and are never zero-filled.
+S6DLNK007,S6CACT_WNG_007,LNK13,cross_company_comparability,mandatory_for_cross_group_ranking,not_applicable_within_company_only,No cross-group strategy-effect ranking is performed.
+S6DLNK007,S6CACT_WNG_007,LNK14,private_disclosure_neutrality,mandatory,met,Disclosure coverage is not interpreted as company performance.
+S6DLNK007,S6CACT_WNG_007,LNK15,causal_claim_boundary,mandatory,met,"Allowed claims remain descriptive, contextual, or company-reported."
+S6DLNK007,S6CACT_WNG_007,LNK16,no_composite_upgrade,mandatory,met,"No action evidence becomes a score, weight, or overall winner."
+S6DLNK008,S6CACT_WNG_008,LNK01,documented_action,mandatory,met,A documented period-bounded action exists.
+S6DLNK008,S6CACT_WNG_008,LNK02,ownership_validity,mandatory,met,Stage 6C retained the action within the valid ownership perimeter.
+S6DLNK008,S6CACT_WNG_008,LNK03,entity_alignment,mandatory_for_direct_link,not_met,No compatible result exists for entity alignment.
+S6DLNK008,S6CACT_WNG_008,LNK04,geography_alignment,mandatory_for_indonesia_claim,not_assessable,No result exists for geography alignment.
+S6DLNK008,S6CACT_WNG_008,LNK05,brand_category_alignment,mandatory_for_brand_category_claim,not_met,No compatible brand/category result is available.
+S6DLNK008,S6CACT_WNG_008,LNK06,temporal_order,mandatory,not_assessable,Temporal linkage cannot be assessed without a result.
+S6DLNK008,S6CACT_WNG_008,LNK07,lag_rationale,mandatory_when_lagged,not_applicable,No lagged linkage is proposed.
+S6DLNK008,S6CACT_WNG_008,LNK08,outcome_definition,mandatory,not_met,No compatible outcome observation is available.
+S6DLNK008,S6CACT_WNG_008,LNK09,baseline_or_comparator,mandatory_for_change_claim,not_applicable,No change-from-baseline claim is proposed.
+S6DLNK008,S6CACT_WNG_008,LNK10,alternative_factors,mandatory_for_interpretation,not_applicable_without_result,No performance interpretation is attempted.
+S6DLNK008,S6CACT_WNG_008,LNK11,company_claim_label,mandatory,not_applicable,No company-attributed explanation is used.
+S6DLNK008,S6CACT_WNG_008,LNK12,missingness,mandatory,met,Missing results remain missing and are never zero-filled.
+S6DLNK008,S6CACT_WNG_008,LNK13,cross_company_comparability,mandatory_for_cross_group_ranking,not_applicable_within_company_only,No cross-group strategy-effect ranking is performed.
+S6DLNK008,S6CACT_WNG_008,LNK14,private_disclosure_neutrality,mandatory,met,Disclosure coverage is not interpreted as company performance.
+S6DLNK008,S6CACT_WNG_008,LNK15,causal_claim_boundary,mandatory,met,"Allowed claims remain descriptive, contextual, or company-reported."
+S6DLNK008,S6CACT_WNG_008,LNK16,no_composite_upgrade,mandatory,met,"No action evidence becomes a score, weight, or overall winner."
+S6DLNK009,S6CACT_MYR_001,LNK01,documented_action,mandatory,met,A documented period-bounded action exists.
+S6DLNK009,S6CACT_MYR_001,LNK02,ownership_validity,mandatory,met,Stage 6C retained the action within the valid ownership perimeter.
+S6DLNK009,S6CACT_MYR_001,LNK03,entity_alignment,mandatory_for_direct_link,met,Action and primary result share a defensible company/brand perimeter.
+S6DLNK009,S6CACT_MYR_001,LNK04,geography_alignment,mandatory_for_indonesia_claim,limited,Both items include domestic/export activity; no Indonesia-household-demand claim is allowed.
+S6DLNK009,S6CACT_MYR_001,LNK05,brand_category_alignment,mandatory_for_brand_category_claim,not_applicable,The proposed screening is company-level.
+S6DLNK009,S6CACT_MYR_001,LNK06,temporal_order,mandatory,met_with_overlap_caveat,Action and result share the annual period; within-year ordering is not isolated.
+S6DLNK009,S6CACT_MYR_001,LNK07,lag_rationale,mandatory_when_lagged,not_applicable,No lagged linkage is proposed.
+S6DLNK009,S6CACT_MYR_001,LNK08,outcome_definition,mandatory,met,"Primary result retains source-native metric, unit, period, and scope."
+S6DLNK009,S6CACT_MYR_001,LNK09,baseline_or_comparator,mandatory_for_change_claim,met,A compatible within-scope comparator is retained.
+S6DLNK009,S6CACT_MYR_001,LNK10,alternative_factors,mandatory_for_interpretation,met_with_caveat,Raw-material/input-cost pressure is retained as an alternative factor.
+S6DLNK009,S6CACT_MYR_001,LNK11,company_claim_label,mandatory,not_applicable,No company-attributed explanation is used.
+S6DLNK009,S6CACT_MYR_001,LNK12,missingness,mandatory,met,Missing results remain missing and are never zero-filled.
+S6DLNK009,S6CACT_MYR_001,LNK13,cross_company_comparability,mandatory_for_cross_group_ranking,not_applicable_within_company_only,No cross-group strategy-effect ranking is performed.
+S6DLNK009,S6CACT_MYR_001,LNK14,private_disclosure_neutrality,mandatory,met,Disclosure coverage is not interpreted as company performance.
+S6DLNK009,S6CACT_MYR_001,LNK15,causal_claim_boundary,mandatory,met,"Allowed claims remain descriptive, contextual, or company-reported."
+S6DLNK009,S6CACT_MYR_001,LNK16,no_composite_upgrade,mandatory,met,"No action evidence becomes a score, weight, or overall winner."
+S6DLNK010,S6CACT_MYR_002,LNK01,documented_action,mandatory,met,A documented period-bounded action exists.
+S6DLNK010,S6CACT_MYR_002,LNK02,ownership_validity,mandatory,met,Stage 6C retained the action within the valid ownership perimeter.
+S6DLNK010,S6CACT_MYR_002,LNK03,entity_alignment,mandatory_for_direct_link,met,Action and primary result share a defensible company/brand perimeter.
+S6DLNK010,S6CACT_MYR_002,LNK04,geography_alignment,mandatory_for_indonesia_claim,limited,Both items include domestic/export activity; no Indonesia-household-demand claim is allowed.
+S6DLNK010,S6CACT_MYR_002,LNK05,brand_category_alignment,mandatory_for_brand_category_claim,not_applicable,The proposed screening is company-level.
+S6DLNK010,S6CACT_MYR_002,LNK06,temporal_order,mandatory,met_with_overlap_caveat,Action and result share the annual period; within-year ordering is not isolated.
+S6DLNK010,S6CACT_MYR_002,LNK07,lag_rationale,mandatory_when_lagged,not_applicable,No lagged linkage is proposed.
+S6DLNK010,S6CACT_MYR_002,LNK08,outcome_definition,mandatory,met,"Primary result retains source-native metric, unit, period, and scope."
+S6DLNK010,S6CACT_MYR_002,LNK09,baseline_or_comparator,mandatory_for_change_claim,met,A compatible within-scope comparator is retained.
+S6DLNK010,S6CACT_MYR_002,LNK10,alternative_factors,mandatory_for_interpretation,met_with_caveat,Raw-material/input-cost pressure is retained as an alternative factor.
+S6DLNK010,S6CACT_MYR_002,LNK11,company_claim_label,mandatory,met,Related management explanation remains explicitly company_reported.
+S6DLNK010,S6CACT_MYR_002,LNK12,missingness,mandatory,met,Missing results remain missing and are never zero-filled.
+S6DLNK010,S6CACT_MYR_002,LNK13,cross_company_comparability,mandatory_for_cross_group_ranking,not_applicable_within_company_only,No cross-group strategy-effect ranking is performed.
+S6DLNK010,S6CACT_MYR_002,LNK14,private_disclosure_neutrality,mandatory,met,Disclosure coverage is not interpreted as company performance.
+S6DLNK010,S6CACT_MYR_002,LNK15,causal_claim_boundary,mandatory,met,"Allowed claims remain descriptive, contextual, or company-reported."
+S6DLNK010,S6CACT_MYR_002,LNK16,no_composite_upgrade,mandatory,met,"No action evidence becomes a score, weight, or overall winner."
+S6DLNK011,S6CACT_MYR_003,LNK01,documented_action,mandatory,met,A documented period-bounded action exists.
+S6DLNK011,S6CACT_MYR_003,LNK02,ownership_validity,mandatory,met,Stage 6C retained the action within the valid ownership perimeter.
+S6DLNK011,S6CACT_MYR_003,LNK03,entity_alignment,mandatory_for_direct_link,not_met,No compatible result exists for entity alignment.
+S6DLNK011,S6CACT_MYR_003,LNK04,geography_alignment,mandatory_for_indonesia_claim,not_assessable,No result exists for geography alignment.
+S6DLNK011,S6CACT_MYR_003,LNK05,brand_category_alignment,mandatory_for_brand_category_claim,not_applicable,The proposed screening is company-level.
+S6DLNK011,S6CACT_MYR_003,LNK06,temporal_order,mandatory,not_assessable,Temporal linkage cannot be assessed without a result.
+S6DLNK011,S6CACT_MYR_003,LNK07,lag_rationale,mandatory_when_lagged,not_applicable,No lagged linkage is proposed.
+S6DLNK011,S6CACT_MYR_003,LNK08,outcome_definition,mandatory,not_met,No compatible outcome observation is available.
+S6DLNK011,S6CACT_MYR_003,LNK09,baseline_or_comparator,mandatory_for_change_claim,not_applicable,No change-from-baseline claim is proposed.
+S6DLNK011,S6CACT_MYR_003,LNK10,alternative_factors,mandatory_for_interpretation,not_applicable_without_result,No performance interpretation is attempted.
+S6DLNK011,S6CACT_MYR_003,LNK11,company_claim_label,mandatory,not_applicable,No company-attributed explanation is used.
+S6DLNK011,S6CACT_MYR_003,LNK12,missingness,mandatory,met,Missing results remain missing and are never zero-filled.
+S6DLNK011,S6CACT_MYR_003,LNK13,cross_company_comparability,mandatory_for_cross_group_ranking,not_applicable_within_company_only,No cross-group strategy-effect ranking is performed.
+S6DLNK011,S6CACT_MYR_003,LNK14,private_disclosure_neutrality,mandatory,met,Disclosure coverage is not interpreted as company performance.
+S6DLNK011,S6CACT_MYR_003,LNK15,causal_claim_boundary,mandatory,met,"Allowed claims remain descriptive, contextual, or company-reported."
+S6DLNK011,S6CACT_MYR_003,LNK16,no_composite_upgrade,mandatory,met,"No action evidence becomes a score, weight, or overall winner."
+S6DLNK012,S6CACT_MYR_004,LNK01,documented_action,mandatory,met,A documented period-bounded action exists.
+S6DLNK012,S6CACT_MYR_004,LNK02,ownership_validity,mandatory,met,Stage 6C retained the action within the valid ownership perimeter.
+S6DLNK012,S6CACT_MYR_004,LNK03,entity_alignment,mandatory_for_direct_link,met,Action and primary result share a defensible company/brand perimeter.
+S6DLNK012,S6CACT_MYR_004,LNK04,geography_alignment,mandatory_for_indonesia_claim,limited,Both items include domestic/export activity; no Indonesia-household-demand claim is allowed.
+S6DLNK012,S6CACT_MYR_004,LNK05,brand_category_alignment,mandatory_for_brand_category_claim,not_applicable,The proposed screening is company-level.
+S6DLNK012,S6CACT_MYR_004,LNK06,temporal_order,mandatory,met_with_overlap_caveat,Action and result share the annual period; within-year ordering is not isolated.
+S6DLNK012,S6CACT_MYR_004,LNK07,lag_rationale,mandatory_when_lagged,not_applicable,No lagged linkage is proposed.
+S6DLNK012,S6CACT_MYR_004,LNK08,outcome_definition,mandatory,met,"Primary result retains source-native metric, unit, period, and scope."
+S6DLNK012,S6CACT_MYR_004,LNK09,baseline_or_comparator,mandatory_for_change_claim,met,A compatible within-scope comparator is retained.
+S6DLNK012,S6CACT_MYR_004,LNK10,alternative_factors,mandatory_for_interpretation,met_with_caveat,Raw-material/input-cost pressure is retained as an alternative factor.
+S6DLNK012,S6CACT_MYR_004,LNK11,company_claim_label,mandatory,not_applicable,No company-attributed explanation is used.
+S6DLNK012,S6CACT_MYR_004,LNK12,missingness,mandatory,met,Missing results remain missing and are never zero-filled.
+S6DLNK012,S6CACT_MYR_004,LNK13,cross_company_comparability,mandatory_for_cross_group_ranking,not_applicable_within_company_only,No cross-group strategy-effect ranking is performed.
+S6DLNK012,S6CACT_MYR_004,LNK14,private_disclosure_neutrality,mandatory,met,Disclosure coverage is not interpreted as company performance.
+S6DLNK012,S6CACT_MYR_004,LNK15,causal_claim_boundary,mandatory,met,"Allowed claims remain descriptive, contextual, or company-reported."
+S6DLNK012,S6CACT_MYR_004,LNK16,no_composite_upgrade,mandatory,met,"No action evidence becomes a score, weight, or overall winner."
+S6DLNK013,S6CACT_UNV_001,LNK01,documented_action,mandatory,met,A documented period-bounded action exists.
+S6DLNK013,S6CACT_UNV_001,LNK02,ownership_validity,mandatory,met,Stage 6C retained the action within the valid ownership perimeter.
+S6DLNK013,S6CACT_UNV_001,LNK03,entity_alignment,mandatory_for_direct_link,met,Action and primary result share a defensible company/brand perimeter.
+S6DLNK013,S6CACT_UNV_001,LNK04,geography_alignment,mandatory_for_indonesia_claim,limited,Company result includes export activity where reported.
+S6DLNK013,S6CACT_UNV_001,LNK05,brand_category_alignment,mandatory_for_brand_category_claim,not_applicable,The proposed screening is company-level.
+S6DLNK013,S6CACT_UNV_001,LNK06,temporal_order,mandatory,met_with_overlap_caveat,Action and result share the annual period; within-year ordering is not isolated.
+S6DLNK013,S6CACT_UNV_001,LNK07,lag_rationale,mandatory_when_lagged,not_applicable,No lagged linkage is proposed.
+S6DLNK013,S6CACT_UNV_001,LNK08,outcome_definition,mandatory,met,"Primary result retains source-native metric, unit, period, and scope."
+S6DLNK013,S6CACT_UNV_001,LNK09,baseline_or_comparator,mandatory_for_change_claim,met,A compatible within-scope comparator is retained.
+S6DLNK013,S6CACT_UNV_001,LNK10,alternative_factors,mandatory_for_interpretation,not_met_for_interpretation,Material alternative factors are not fully isolated for company-sales interpretation.
+S6DLNK013,S6CACT_UNV_001,LNK11,company_claim_label,mandatory,not_applicable,No company-attributed explanation is used.
+S6DLNK013,S6CACT_UNV_001,LNK12,missingness,mandatory,met,Missing results remain missing and are never zero-filled.
+S6DLNK013,S6CACT_UNV_001,LNK13,cross_company_comparability,mandatory_for_cross_group_ranking,not_applicable_within_company_only,No cross-group strategy-effect ranking is performed.
+S6DLNK013,S6CACT_UNV_001,LNK14,private_disclosure_neutrality,mandatory,met,Disclosure coverage is not interpreted as company performance.
+S6DLNK013,S6CACT_UNV_001,LNK15,causal_claim_boundary,mandatory,met,"Allowed claims remain descriptive, contextual, or company-reported."
+S6DLNK013,S6CACT_UNV_001,LNK16,no_composite_upgrade,mandatory,met,"No action evidence becomes a score, weight, or overall winner."
+S6DLNK014,S6CACT_UNV_002,LNK01,documented_action,mandatory,met,A documented period-bounded action exists.
+S6DLNK014,S6CACT_UNV_002,LNK02,ownership_validity,mandatory,met,Stage 6C retained the action within the valid ownership perimeter.
+S6DLNK014,S6CACT_UNV_002,LNK03,entity_alignment,mandatory_for_direct_link,met,Action and primary result share a defensible company/brand perimeter.
+S6DLNK014,S6CACT_UNV_002,LNK04,geography_alignment,mandatory_for_indonesia_claim,limited,Company result includes export activity where reported.
+S6DLNK014,S6CACT_UNV_002,LNK05,brand_category_alignment,mandatory_for_brand_category_claim,not_applicable,The proposed screening is company-level.
+S6DLNK014,S6CACT_UNV_002,LNK06,temporal_order,mandatory,met_with_overlap_caveat,Action and result share the annual period; within-year ordering is not isolated.
+S6DLNK014,S6CACT_UNV_002,LNK07,lag_rationale,mandatory_when_lagged,not_applicable,No lagged linkage is proposed.
+S6DLNK014,S6CACT_UNV_002,LNK08,outcome_definition,mandatory,met,"Primary result retains source-native metric, unit, period, and scope."
+S6DLNK014,S6CACT_UNV_002,LNK09,baseline_or_comparator,mandatory_for_change_claim,met,A compatible within-scope comparator is retained.
+S6DLNK014,S6CACT_UNV_002,LNK10,alternative_factors,mandatory_for_interpretation,not_met_for_interpretation,Material alternative factors are not fully isolated for company-sales interpretation.
+S6DLNK014,S6CACT_UNV_002,LNK11,company_claim_label,mandatory,not_applicable,No company-attributed explanation is used.
+S6DLNK014,S6CACT_UNV_002,LNK12,missingness,mandatory,met,Missing results remain missing and are never zero-filled.
+S6DLNK014,S6CACT_UNV_002,LNK13,cross_company_comparability,mandatory_for_cross_group_ranking,not_applicable_within_company_only,No cross-group strategy-effect ranking is performed.
+S6DLNK014,S6CACT_UNV_002,LNK14,private_disclosure_neutrality,mandatory,met,Disclosure coverage is not interpreted as company performance.
+S6DLNK014,S6CACT_UNV_002,LNK15,causal_claim_boundary,mandatory,met,"Allowed claims remain descriptive, contextual, or company-reported."
+S6DLNK014,S6CACT_UNV_002,LNK16,no_composite_upgrade,mandatory,met,"No action evidence becomes a score, weight, or overall winner."
+S6DLNK015,S6CACT_UNV_003,LNK01,documented_action,mandatory,met,A documented period-bounded action exists.
+S6DLNK015,S6CACT_UNV_003,LNK02,ownership_validity,mandatory,met,Stage 6C retained the action within the valid ownership perimeter.
+S6DLNK015,S6CACT_UNV_003,LNK03,entity_alignment,mandatory_for_direct_link,not_met,No compatible result exists for entity alignment.
+S6DLNK015,S6CACT_UNV_003,LNK04,geography_alignment,mandatory_for_indonesia_claim,not_assessable,No result exists for geography alignment.
+S6DLNK015,S6CACT_UNV_003,LNK05,brand_category_alignment,mandatory_for_brand_category_claim,not_assessable,The claimed General Trade volume result is not observed as OUT09.
+S6DLNK015,S6CACT_UNV_003,LNK06,temporal_order,mandatory,not_assessable,Temporal linkage cannot be assessed without a result.
+S6DLNK015,S6CACT_UNV_003,LNK07,lag_rationale,mandatory_when_lagged,not_applicable,No lagged linkage is proposed.
+S6DLNK015,S6CACT_UNV_003,LNK08,outcome_definition,mandatory,not_met,No compatible outcome observation is available.
+S6DLNK015,S6CACT_UNV_003,LNK09,baseline_or_comparator,mandatory_for_change_claim,not_applicable,No change-from-baseline claim is proposed.
+S6DLNK015,S6CACT_UNV_003,LNK10,alternative_factors,mandatory_for_interpretation,not_applicable_without_result,No performance interpretation is attempted.
+S6DLNK015,S6CACT_UNV_003,LNK11,company_claim_label,mandatory,met,Related management explanation remains explicitly company_reported.
+S6DLNK015,S6CACT_UNV_003,LNK12,missingness,mandatory,met,Missing results remain missing and are never zero-filled.
+S6DLNK015,S6CACT_UNV_003,LNK13,cross_company_comparability,mandatory_for_cross_group_ranking,not_applicable_within_company_only,No cross-group strategy-effect ranking is performed.
+S6DLNK015,S6CACT_UNV_003,LNK14,private_disclosure_neutrality,mandatory,met,Disclosure coverage is not interpreted as company performance.
+S6DLNK015,S6CACT_UNV_003,LNK15,causal_claim_boundary,mandatory,met,"Allowed claims remain descriptive, contextual, or company-reported."
+S6DLNK015,S6CACT_UNV_003,LNK16,no_composite_upgrade,mandatory,met,"No action evidence becomes a score, weight, or overall winner."
+S6DLNK016,S6CACT_UNV_004,LNK01,documented_action,mandatory,met,A documented period-bounded action exists.
+S6DLNK016,S6CACT_UNV_004,LNK02,ownership_validity,mandatory,met,Stage 6C retained the action within the valid ownership perimeter.
+S6DLNK016,S6CACT_UNV_004,LNK03,entity_alignment,mandatory_for_direct_link,not_met,No compatible result exists for entity alignment.
+S6DLNK016,S6CACT_UNV_004,LNK04,geography_alignment,mandatory_for_indonesia_claim,not_assessable,No result exists for geography alignment.
+S6DLNK016,S6CACT_UNV_004,LNK05,brand_category_alignment,mandatory_for_brand_category_claim,not_met,No compatible brand/category result is available.
+S6DLNK016,S6CACT_UNV_004,LNK06,temporal_order,mandatory,not_assessable,Temporal linkage cannot be assessed without a result.
+S6DLNK016,S6CACT_UNV_004,LNK07,lag_rationale,mandatory_when_lagged,not_applicable,No lagged linkage is proposed.
+S6DLNK016,S6CACT_UNV_004,LNK08,outcome_definition,mandatory,not_met,No compatible outcome observation is available.
+S6DLNK016,S6CACT_UNV_004,LNK09,baseline_or_comparator,mandatory_for_change_claim,not_applicable,No change-from-baseline claim is proposed.
+S6DLNK016,S6CACT_UNV_004,LNK10,alternative_factors,mandatory_for_interpretation,not_applicable_without_result,No performance interpretation is attempted.
+S6DLNK016,S6CACT_UNV_004,LNK11,company_claim_label,mandatory,not_applicable,No company-attributed explanation is used.
+S6DLNK016,S6CACT_UNV_004,LNK12,missingness,mandatory,met,Missing results remain missing and are never zero-filled.
+S6DLNK016,S6CACT_UNV_004,LNK13,cross_company_comparability,mandatory_for_cross_group_ranking,not_applicable_within_company_only,No cross-group strategy-effect ranking is performed.
+S6DLNK016,S6CACT_UNV_004,LNK14,private_disclosure_neutrality,mandatory,met,Disclosure coverage is not interpreted as company performance.
+S6DLNK016,S6CACT_UNV_004,LNK15,causal_claim_boundary,mandatory,met,"Allowed claims remain descriptive, contextual, or company-reported."
+S6DLNK016,S6CACT_UNV_004,LNK16,no_composite_upgrade,mandatory,met,"No action evidence becomes a score, weight, or overall winner."
+S6DLNK017,S6CACT_UNV_005,LNK01,documented_action,mandatory,met,A documented period-bounded action exists.
+S6DLNK017,S6CACT_UNV_005,LNK02,ownership_validity,mandatory,met,Stage 6C retained the action within the valid ownership perimeter.
+S6DLNK017,S6CACT_UNV_005,LNK03,entity_alignment,mandatory_for_direct_link,not_met,No compatible result exists for entity alignment.
+S6DLNK017,S6CACT_UNV_005,LNK04,geography_alignment,mandatory_for_indonesia_claim,not_assessable,No result exists for geography alignment.
+S6DLNK017,S6CACT_UNV_005,LNK05,brand_category_alignment,mandatory_for_brand_category_claim,not_met,No compatible brand/category result is available.
+S6DLNK017,S6CACT_UNV_005,LNK06,temporal_order,mandatory,not_assessable,Temporal linkage cannot be assessed without a result.
+S6DLNK017,S6CACT_UNV_005,LNK07,lag_rationale,mandatory_when_lagged,not_applicable,No lagged linkage is proposed.
+S6DLNK017,S6CACT_UNV_005,LNK08,outcome_definition,mandatory,not_met,No compatible outcome observation is available.
+S6DLNK017,S6CACT_UNV_005,LNK09,baseline_or_comparator,mandatory_for_change_claim,not_applicable,No change-from-baseline claim is proposed.
+S6DLNK017,S6CACT_UNV_005,LNK10,alternative_factors,mandatory_for_interpretation,not_applicable_without_result,No performance interpretation is attempted.
+S6DLNK017,S6CACT_UNV_005,LNK11,company_claim_label,mandatory,not_applicable,No company-attributed explanation is used.
+S6DLNK017,S6CACT_UNV_005,LNK12,missingness,mandatory,met,Missing results remain missing and are never zero-filled.
+S6DLNK017,S6CACT_UNV_005,LNK13,cross_company_comparability,mandatory_for_cross_group_ranking,not_applicable_within_company_only,No cross-group strategy-effect ranking is performed.
+S6DLNK017,S6CACT_UNV_005,LNK14,private_disclosure_neutrality,mandatory,met,Disclosure coverage is not interpreted as company performance.
+S6DLNK017,S6CACT_UNV_005,LNK15,causal_claim_boundary,mandatory,met,"Allowed claims remain descriptive, contextual, or company-reported."
+S6DLNK017,S6CACT_UNV_005,LNK16,no_composite_upgrade,mandatory,met,"No action evidence becomes a score, weight, or overall winner."
+S6DLNK018,S6CACT_UNV_006,LNK01,documented_action,mandatory,met,A documented period-bounded action exists.
+S6DLNK018,S6CACT_UNV_006,LNK02,ownership_validity,mandatory,met,Stage 6C retained the action within the valid ownership perimeter.
+S6DLNK018,S6CACT_UNV_006,LNK03,entity_alignment,mandatory_for_direct_link,not_met,No compatible result exists for entity alignment.
+S6DLNK018,S6CACT_UNV_006,LNK04,geography_alignment,mandatory_for_indonesia_claim,not_assessable,No result exists for geography alignment.
+S6DLNK018,S6CACT_UNV_006,LNK05,brand_category_alignment,mandatory_for_brand_category_claim,not_met,No compatible brand/category result is available.
+S6DLNK018,S6CACT_UNV_006,LNK06,temporal_order,mandatory,not_assessable,Temporal linkage cannot be assessed without a result.
+S6DLNK018,S6CACT_UNV_006,LNK07,lag_rationale,mandatory_when_lagged,not_applicable,No lagged linkage is proposed.
+S6DLNK018,S6CACT_UNV_006,LNK08,outcome_definition,mandatory,not_met,No compatible outcome observation is available.
+S6DLNK018,S6CACT_UNV_006,LNK09,baseline_or_comparator,mandatory_for_change_claim,not_applicable,No change-from-baseline claim is proposed.
+S6DLNK018,S6CACT_UNV_006,LNK10,alternative_factors,mandatory_for_interpretation,not_applicable_without_result,No performance interpretation is attempted.
+S6DLNK018,S6CACT_UNV_006,LNK11,company_claim_label,mandatory,not_applicable,No company-attributed explanation is used.
+S6DLNK018,S6CACT_UNV_006,LNK12,missingness,mandatory,met,Missing results remain missing and are never zero-filled.
+S6DLNK018,S6CACT_UNV_006,LNK13,cross_company_comparability,mandatory_for_cross_group_ranking,not_applicable_within_company_only,No cross-group strategy-effect ranking is performed.
+S6DLNK018,S6CACT_UNV_006,LNK14,private_disclosure_neutrality,mandatory,met,Disclosure coverage is not interpreted as company performance.
+S6DLNK018,S6CACT_UNV_006,LNK15,causal_claim_boundary,mandatory,met,"Allowed claims remain descriptive, contextual, or company-reported."
+S6DLNK018,S6CACT_UNV_006,LNK16,no_composite_upgrade,mandatory,met,"No action evidence becomes a score, weight, or overall winner."
+S6DLNK019,S6CACT_UNV_007,LNK01,documented_action,mandatory,met,A documented period-bounded action exists.
+S6DLNK019,S6CACT_UNV_007,LNK02,ownership_validity,mandatory,met,Stage 6C retained the action within the valid ownership perimeter.
+S6DLNK019,S6CACT_UNV_007,LNK03,entity_alignment,mandatory_for_direct_link,not_met,No compatible result exists for entity alignment.
+S6DLNK019,S6CACT_UNV_007,LNK04,geography_alignment,mandatory_for_indonesia_claim,not_assessable,No result exists for geography alignment.
+S6DLNK019,S6CACT_UNV_007,LNK05,brand_category_alignment,mandatory_for_brand_category_claim,not_met,No compatible brand/category result is available.
+S6DLNK019,S6CACT_UNV_007,LNK06,temporal_order,mandatory,not_assessable,Temporal linkage cannot be assessed without a result.
+S6DLNK019,S6CACT_UNV_007,LNK07,lag_rationale,mandatory_when_lagged,not_applicable,No lagged linkage is proposed.
+S6DLNK019,S6CACT_UNV_007,LNK08,outcome_definition,mandatory,not_met,No compatible outcome observation is available.
+S6DLNK019,S6CACT_UNV_007,LNK09,baseline_or_comparator,mandatory_for_change_claim,not_applicable,No change-from-baseline claim is proposed.
+S6DLNK019,S6CACT_UNV_007,LNK10,alternative_factors,mandatory_for_interpretation,not_applicable_without_result,No performance interpretation is attempted.
+S6DLNK019,S6CACT_UNV_007,LNK11,company_claim_label,mandatory,not_applicable,No company-attributed explanation is used.
+S6DLNK019,S6CACT_UNV_007,LNK12,missingness,mandatory,met,Missing results remain missing and are never zero-filled.
+S6DLNK019,S6CACT_UNV_007,LNK13,cross_company_comparability,mandatory_for_cross_group_ranking,not_applicable_within_company_only,No cross-group strategy-effect ranking is performed.
+S6DLNK019,S6CACT_UNV_007,LNK14,private_disclosure_neutrality,mandatory,met,Disclosure coverage is not interpreted as company performance.
+S6DLNK019,S6CACT_UNV_007,LNK15,causal_claim_boundary,mandatory,met,"Allowed claims remain descriptive, contextual, or company-reported."
+S6DLNK019,S6CACT_UNV_007,LNK16,no_composite_upgrade,mandatory,met,"No action evidence becomes a score, weight, or overall winner."
+S6DLNK020,S6CACT_UNV_008,LNK01,documented_action,mandatory,met,A documented period-bounded action exists.
+S6DLNK020,S6CACT_UNV_008,LNK02,ownership_validity,mandatory,met,Stage 6C retained the action within the valid ownership perimeter.
+S6DLNK020,S6CACT_UNV_008,LNK03,entity_alignment,mandatory_for_direct_link,met,Action and primary result share a defensible company/brand perimeter.
+S6DLNK020,S6CACT_UNV_008,LNK04,geography_alignment,mandatory_for_indonesia_claim,met,Action and result share Indonesia scope.
+S6DLNK020,S6CACT_UNV_008,LNK05,brand_category_alignment,mandatory_for_brand_category_claim,met,Sunlight scope matches the launch-distribution result.
+S6DLNK020,S6CACT_UNV_008,LNK06,temporal_order,mandatory,met,Action and result share Q1 2025 launch timing.
+S6DLNK020,S6CACT_UNV_008,LNK07,lag_rationale,mandatory_when_lagged,not_applicable,No lagged linkage is proposed.
+S6DLNK020,S6CACT_UNV_008,LNK08,outcome_definition,mandatory,met,"Primary result retains source-native metric, unit, period, and scope."
+S6DLNK020,S6CACT_UNV_008,LNK09,baseline_or_comparator,mandatory_for_change_claim,not_applicable,No change-from-baseline claim is proposed.
+S6DLNK020,S6CACT_UNV_008,LNK10,alternative_factors,mandatory_for_interpretation,not_applicable_descriptive_measurement,Allowed claim is limited to the reported distribution measure.
+S6DLNK020,S6CACT_UNV_008,LNK11,company_claim_label,mandatory,not_applicable,No company-attributed explanation is used.
+S6DLNK020,S6CACT_UNV_008,LNK12,missingness,mandatory,met,Missing results remain missing and are never zero-filled.
+S6DLNK020,S6CACT_UNV_008,LNK13,cross_company_comparability,mandatory_for_cross_group_ranking,not_applicable_within_company_only,No cross-group strategy-effect ranking is performed.
+S6DLNK020,S6CACT_UNV_008,LNK14,private_disclosure_neutrality,mandatory,met,Disclosure coverage is not interpreted as company performance.
+S6DLNK020,S6CACT_UNV_008,LNK15,causal_claim_boundary,mandatory,met,"Allowed claims remain descriptive, contextual, or company-reported."
+S6DLNK020,S6CACT_UNV_008,LNK16,no_composite_upgrade,mandatory,met,"No action evidence becomes a score, weight, or overall winner."
+S6DLNK021,S6CACT_UNV_009,LNK01,documented_action,mandatory,met,A documented period-bounded action exists.
+S6DLNK021,S6CACT_UNV_009,LNK02,ownership_validity,mandatory,met,Stage 6C retained the action within the valid ownership perimeter.
+S6DLNK021,S6CACT_UNV_009,LNK03,entity_alignment,mandatory_for_direct_link,not_met,No compatible result exists for entity alignment.
+S6DLNK021,S6CACT_UNV_009,LNK04,geography_alignment,mandatory_for_indonesia_claim,not_assessable,No result exists for geography alignment.
+S6DLNK021,S6CACT_UNV_009,LNK05,brand_category_alignment,mandatory_for_brand_category_claim,not_met,No compatible brand/category result is available.
+S6DLNK021,S6CACT_UNV_009,LNK06,temporal_order,mandatory,not_assessable,Temporal linkage cannot be assessed without a result.
+S6DLNK021,S6CACT_UNV_009,LNK07,lag_rationale,mandatory_when_lagged,not_applicable,No lagged linkage is proposed.
+S6DLNK021,S6CACT_UNV_009,LNK08,outcome_definition,mandatory,not_met,No compatible outcome observation is available.
+S6DLNK021,S6CACT_UNV_009,LNK09,baseline_or_comparator,mandatory_for_change_claim,not_applicable,No change-from-baseline claim is proposed.
+S6DLNK021,S6CACT_UNV_009,LNK10,alternative_factors,mandatory_for_interpretation,not_applicable_without_result,No performance interpretation is attempted.
+S6DLNK021,S6CACT_UNV_009,LNK11,company_claim_label,mandatory,not_applicable,No company-attributed explanation is used.
+S6DLNK021,S6CACT_UNV_009,LNK12,missingness,mandatory,met,Missing results remain missing and are never zero-filled.
+S6DLNK021,S6CACT_UNV_009,LNK13,cross_company_comparability,mandatory_for_cross_group_ranking,not_applicable_within_company_only,No cross-group strategy-effect ranking is performed.
+S6DLNK021,S6CACT_UNV_009,LNK14,private_disclosure_neutrality,mandatory,met,Disclosure coverage is not interpreted as company performance.
+S6DLNK021,S6CACT_UNV_009,LNK15,causal_claim_boundary,mandatory,met,"Allowed claims remain descriptive, contextual, or company-reported."
+S6DLNK021,S6CACT_UNV_009,LNK16,no_composite_upgrade,mandatory,met,"No action evidence becomes a score, weight, or overall winner."
+S6DLNK022,S6CACT_UNV_010,LNK01,documented_action,mandatory,met,A documented period-bounded action exists.
+S6DLNK022,S6CACT_UNV_010,LNK02,ownership_validity,mandatory,met,Stage 6C retained the action within the valid ownership perimeter.
+S6DLNK022,S6CACT_UNV_010,LNK03,entity_alignment,mandatory_for_direct_link,limited,"Entity alignment is valid for perimeter interpretation, not performance attribution."
+S6DLNK022,S6CACT_UNV_010,LNK04,geography_alignment,mandatory_for_indonesia_claim,limited,Company result includes export activity where reported.
+S6DLNK022,S6CACT_UNV_010,LNK05,brand_category_alignment,mandatory_for_brand_category_claim,not_met,Ice Cream business scope does not match company continuing-operation sales for performance attribution.
+S6DLNK022,S6CACT_UNV_010,LNK06,temporal_order,mandatory,limited,"The December separation is valid for perimeter context, not full-year performance attribution."
+S6DLNK022,S6CACT_UNV_010,LNK07,lag_rationale,mandatory_when_lagged,not_applicable,No lagged linkage is proposed.
+S6DLNK022,S6CACT_UNV_010,LNK08,outcome_definition,mandatory,met,"Primary result retains source-native metric, unit, period, and scope."
+S6DLNK022,S6CACT_UNV_010,LNK09,baseline_or_comparator,mandatory_for_change_claim,met,A compatible within-scope comparator is retained.
+S6DLNK022,S6CACT_UNV_010,LNK10,alternative_factors,mandatory_for_interpretation,not_applicable_perimeter_context,"Screening concerns reporting perimeter, not effectiveness."
+S6DLNK022,S6CACT_UNV_010,LNK11,company_claim_label,mandatory,not_applicable,No company-attributed explanation is used.
+S6DLNK022,S6CACT_UNV_010,LNK12,missingness,mandatory,met,Missing results remain missing and are never zero-filled.
+S6DLNK022,S6CACT_UNV_010,LNK13,cross_company_comparability,mandatory_for_cross_group_ranking,not_applicable_within_company_only,No cross-group strategy-effect ranking is performed.
+S6DLNK022,S6CACT_UNV_010,LNK14,private_disclosure_neutrality,mandatory,met,Disclosure coverage is not interpreted as company performance.
+S6DLNK022,S6CACT_UNV_010,LNK15,causal_claim_boundary,mandatory,met,"Allowed claims remain descriptive, contextual, or company-reported."
+S6DLNK022,S6CACT_UNV_010,LNK16,no_composite_upgrade,mandatory,met,"No action evidence becomes a score, weight, or overall winner."
