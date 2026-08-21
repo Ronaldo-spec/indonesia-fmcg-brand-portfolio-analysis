@@ -1,0 +1,11 @@
+finding_id,track_a_finding_ids,track_b_finding_ids,supporting_figure_ids,evidence_role
+FND6F_01,FND4_01,,V6F01,Track A breadth result
+FND6F_02,FND4_02,,V6F02,Track A selected-category leadership result
+FND6F_03,FND4_03,,V6F03,Track A longitudinal stability and momentum result
+FND6F_04,FND4_04,,V6F04,Track A competitive persistence result
+FND6F_05,FND4_05,,,Track A ownership-sensitivity result
+FND6F_06,,FND6E_03,V6F05,Track B Wings evidence-boundary synthesis
+FND6F_07,,FND6E_04,V6F05,Track B Indofood/ICBP company-attribution synthesis
+FND6F_08,,FND6E_05,V6F05,Track B Mayora bounded linkage synthesis
+FND6F_09,,FND6E_02;FND6E_06,V6F05,Track B direct descriptive and Unilever bounded linkage synthesis
+FND6F_10,FND4_06,FND6E_07,V6F06,Cross-track overall-winner defensibility

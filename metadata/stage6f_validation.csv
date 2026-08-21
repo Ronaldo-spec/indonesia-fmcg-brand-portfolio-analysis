@@ -1,0 +1,41 @@
+check_id,validation_area,check_description,result,status,critical_failure,required_treatment
+S6F001,input_integrity,All 13 governed Stage 4–6E inputs match locked SHA-256 values.,13/13 inputs passed,passed,no,Carry the validated evidence boundary into reporting.
+S6F002,prior_stage_gate,Stage 6E final gate remains PASS_WITH_CAVEAT.,PASS_WITH_CAVEAT,passed_with_caveat,no,Carry the validated evidence boundary into reporting.
+S6F003,breadth_reconciliation,Structural breadth reconciles to 38 / 37 / 25 / 22.,reconciled,passed,no,Carry the validated evidence boundary into reporting.
+S6F004,leadership_reconciliation,Five complete selected 2026 categories reconcile to Unilever 3 and Wings 2.,reconciled,passed_with_caveat,no,Carry the validated evidence boundary into reporting.
+S6F005,stability_reconciliation,Observed-stability leaders reconcile to Wings 4 of 5 and Indofood 1 of 5.,reconciled,passed_with_caveat,no,Carry the validated evidence boundary into reporting.
+S6F006,momentum_reconciliation,"Momentum leaders reconcile to Indofood 2, Unilever 2, Wings 1.",reconciled,passed_with_caveat,no,Carry the validated evidence boundary into reporting.
+S6F007,persistence_reconciliation,Four eligible persistence opportunities are retained.,4 opportunities,passed_with_caveat,no,Carry the validated evidence boundary into reporting.
+S6F008,track_b_reconciliation,Track B action and company-claim counts reconcile to Stage 6D.,22 actions; 6 claims,passed_with_caveat,no,Carry the validated evidence boundary into reporting.
+S6F009,dimension_summary,Seven final analytical dimension rows are created.,7 rows,passed,no,Carry the validated evidence boundary into reporting.
+S6F010,final_findings,Ten final findings are consolidated.,10 findings,passed,no,Carry the validated evidence boundary into reporting.
+S6F011,evidence_map,Every final finding has an explicit evidence-map row.,10/10 mapped,passed,no,Carry the validated evidence boundary into reporting.
+S6F012,figure_count,Six analytical figures are created.,6 figures,passed,no,Carry the validated evidence boundary into reporting.
+S6F013,figure_breadth,V6F01 uses verified brand-family breadth only.,retained,passed,no,Carry the validated evidence boundary into reporting.
+S6F014,figure_leadership,V6F02 uses selected complete focal-category leadership counts only.,retained,passed_with_caveat,no,Carry the validated evidence boundary into reporting.
+S6F015,figure_stability_momentum,V6F03 keeps stability and momentum as separate dimensions.,retained,passed,no,Carry the validated evidence boundary into reporting.
+S6F016,figure_persistence,V6F04 shows opportunity-specific persistence paths rather than a group score.,retained,passed,no,Carry the validated evidence boundary into reporting.
+S6F017,figure_track_b,V6F05 labels evidence counts as coverage/assessability rather than performance.,retained,passed_with_caveat,no,Carry the validated evidence boundary into reporting.
+S6F018,figure_final_summary,V6F06 presents dimension-specific leaders/status without composite scoring.,retained,passed,no,Carry the validated evidence boundary into reporting.
+S6F019,market_share_boundary,"No TBI, leadership count, distribution measure, or rank is relabelled as market share.",0 semantic upgrades,passed,no,Carry the validated evidence boundary into reporting.
+S6F020,consumer_reach_boundary,Distribution availability is not relabelled as consumer reach.,0 semantic upgrades,passed,no,Carry the validated evidence boundary into reporting.
+S6F021,breadth_boundary,Brand-family breadth is not relabelled as structural category breadth.,retained,passed,no,Carry the validated evidence boundary into reporting.
+S6F022,stability_boundary,Observed stability is not called performance strength.,retained,passed,no,Carry the validated evidence boundary into reporting.
+S6F023,momentum_boundary,Momentum magnitudes are not averaged across categories.,retained,passed,no,Carry the validated evidence boundary into reporting.
+S6F024,methodology_boundary,The 2025–2026 Top Brand methodology boundary is not bridged longitudinally.,retained,passed,no,Carry the validated evidence boundary into reporting.
+S6F025,persistence_boundary,Unequal incumbent opportunities are not converted into a portfolio-wide persistence ranking.,retained,passed,no,Carry the validated evidence boundary into reporting.
+S6F026,wings_neutrality,Wings evidence gaps are not interpreted as weak performance.,retained,passed_with_caveat,no,Carry the validated evidence boundary into reporting.
+S6F027,indofood_attribution,Indofood/ICBP explanations remain company-reported.,retained,passed_with_caveat,no,Carry the validated evidence boundary into reporting.
+S6F028,mayora_geography,Mayora mixed geography remains explicit.,retained,passed_with_caveat,no,Carry the validated evidence boundary into reporting.
+S6F029,mayora_input_costs,Raw-material costs remain an alternative factor.,retained,passed_with_caveat,no,Carry the validated evidence boundary into reporting.
+S6F030,unilever_direct_pair,Sunlight Q1 2025 remains the only direct descriptive pair.,retained,passed_with_caveat,no,Carry the validated evidence boundary into reporting.
+S6F031,unilever_scope,Sunlight direct-store coverage is not generalized to FY2025 commercial performance.,retained,passed,no,Carry the validated evidence boundary into reporting.
+S6F032,ownership_sensitivity,Le Minerale remains sensitivity-only for Mayora.,retained,passed,no,Carry the validated evidence boundary into reporting.
+S6F033,track_a_leaders,Track A dimension leaders remain unchanged.,unchanged,passed,no,Carry the validated evidence boundary into reporting.
+S6F034,track_b_effect_ranking,No Track B strategy-effect ranking is created.,none,passed,no,Carry the validated evidence boundary into reporting.
+S6F035,causal_boundary,No final finding claims causal identification.,0 causal upgrades,passed,no,Carry the validated evidence boundary into reporting.
+S6F036,composite_boundary,"No normalization, weighting, or composite score is created.",none,passed,no,Carry the validated evidence boundary into reporting.
+S6F037,overall_winner,A single overall winner remains not defensible.,unchanged,passed,no,Carry the validated evidence boundary into reporting.
+S6F038,reporting_boundary,No report or README is created in Stage 6F.,none,passed,no,Carry the validated evidence boundary into reporting.
+S6F039,raw_source_boundary,No raw copyrighted source documents are written.,none,passed,no,Carry the validated evidence boundary into reporting.
+S6F040,stage_gate,Visualization and final findings consolidation are complete enough to proceed to report architecture and publication artifacts.,PASS_WITH_CAVEAT,passed_with_caveat,no,Carry the validated evidence boundary into reporting.
