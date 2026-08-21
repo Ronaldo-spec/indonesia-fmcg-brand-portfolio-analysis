@@ -1,0 +1,28 @@
+check_id,validation_area,check_description,result,status,critical_failure,required_treatment
+S6A001,input_integrity,All ten Stage 5 manifest-tracked inputs match their locked SHA-256 values.,10/10 inputs passed,passed,no,Stop Stage 6A if any locked input differs.
+S6A002,prior_stage_gate,Stage 5 final design gate remains PASS_WITH_CAVEAT.,PASS_WITH_CAVEAT,passed_with_caveat,no,Carry Stage 5 caveats into acquisition.
+S6A003,focal_group_coverage,The acquisition universe covers all four focal groups.,4/4 focal groups,passed,no,Do not add or remove focal groups after observing results.
+S6A004,primary_period,Primary strategy and corporate-result windows remain 2022–2025 and FY2022–FY2025.,2022–2025 / FY2022–FY2025,passed,no,Keep 2026 interim evidence context-only unless like-for-like.
+S6A005,strategy_taxonomy,Acquisition targets use only the frozen STR01–STR09 strategy taxonomy.,9 frozen strategy codes,passed,no,Do not invent post-result strategy classes.
+S6A006,outcome_taxonomy,Acquisition targets preserve the frozen Stage 5 outcome taxonomy.,18 frozen outcome definitions,passed,no,Do not collapse unlike outcome semantics.
+S6A007,source_hierarchy,Official and audited sources precede secondary contextual evidence.,priority tiers retained,passed,no,Use lower-tier sources mainly for corroboration/context.
+S6A008,wings_official_strategy_sources,Official Wings corporate and brand announcement sources are present.,official web/news sources discovered,passed,no,Use article-level dated evidence in Stage 6B/6C.
+S6A009,wings_financial_disclosure,No Wings annual report or audited financial statements were found in official-site discovery.,not_found_in_official_site_discovery,passed_with_caveat,no,"Treat as disclosure limitation, not weak performance or zero."
+S6A010,indofood_parent_coverage,"Indofood parent annual-report, financial-statement and earnings-release source families are discovered.",covered,passed,no,Preserve parent/segment boundaries.
+S6A011,indofood_icbp_coverage,"ICBP annual-report, financial-statement and earnings-release source families are discovered.",covered,passed,no,Preserve ICBP consolidated and geography scope.
+S6A012,indofood_segment_scope,Bogasari and consumer edible-oils/fats targets are separated from industrial/upstream operations.,separated,passed,no,Do not award portfolio-result credit to excluded operations.
+S6A013,mayora_reporting_coverage,Mayora annual reports and annual financial statements cover FY2022–FY2025.,covered,passed,no,Preserve consolidated and export scope.
+S6A014,mayora_sensitivity_scope,PT Tirta Fresindo Jaya / Le Minerale remains sensitivity-only.,extended_group_sensitivity_only,passed,no,Do not include in strict-control primary results.
+S6A015,mayora_geography,Domestic versus export scope is explicitly retained as an acquisition requirement.,retained,passed,no,Do not interpret mixed geography as Indonesian household demand.
+S6A016,unilever_reporting_coverage,Unilever annual reports cover FY2022–FY2025 and annual financial statements are identified.,covered,passed,no,Preserve restatements and accounting scope.
+S6A017,unilever_time_varying_ownership,Disposed businesses remain period-specific acquisition targets.,time-varying ownership retained,passed,no,Do not carry disposed businesses into later outcomes.
+S6A018,legal_access_audit,Content-access and redistribution treatment is recorded for each principal source domain.,6 domains audited,passed_with_caveat,no,Use conservative reference-only treatment where rights are unclear or restrictive.
+S6A019,raw_storage_policy,No discovered copyrighted corporate report is approved for repository raw storage in Stage 6A.,reference_only,passed_with_caveat,no,Do not commit raw copyrighted PDFs absent a defensible reuse license.
+S6A020,scraping_boundary,No source requires prohibited or bulk scraping.,manual/single-document acquisition only,passed,no,Stop automated acquisition where terms prohibit or do not clearly permit it.
+S6A021,source_urls,Every discovered source-inventory record preserves a source URL.,complete,passed,no,Do not replace source URLs with local copies.
+S6A022,company_claim_labels,Company strategy actions and explanations retain company-reported labels.,retained,passed,no,Do not upgrade management attribution to independent causal evidence.
+S6A023,missingness,Not-found or undisclosed evidence is not converted to zero.,preserved,passed,no,"Retain not-found, unavailable and undisclosed states explicitly."
+S6A024,no_strategy_result_inference,Stage 6A does not infer results from strategy or strategy from results.,none created,passed,no,Linkage belongs to later governed analysis.
+S6A025,no_cross_company_ranking,Stage 6A creates no cross-company performance ranking or composite score.,none created,passed,no,Keep acquisition separate from synthesis.
+S6A026,reporting_boundary,No analytical report or README is produced.,none created,passed,no,Defer reporting until later stages are complete.
+S6A027,stage_gate,The acquisition universe and source/legal audit are complete enough to begin controlled official-source acquisition.,PASS_WITH_CAVEAT,passed_with_caveat,no,Carry Wings disclosure asymmetry and conservative redistribution limits into Stage 6B.
