@@ -1,0 +1,29 @@
+canonical_group,dimension,evidence_value,eligible_denominator,relative_position_or_rate,evidence_status,semantics
+Wings Group,structural_brand_breadth,37,,2,eligible_with_caveat,Distinct current strict-control canonical brand families; relative position is breadth rank.
+Wings Group,current_focal_category_leadership,2,5,0.4,eligible_with_caveat,Complete selected 2026 focal-category leadership events; rate is not market share.
+Wings Group,latest_historical_focal_category_leadership,2,5,0.4,eligible_with_caveat,Latest complete historical focal leadership event per eligible category; no 2026 bridge.
+Wings Group,observed_stability_block_leadership,4,5,0.8,eligible_with_caveat,Count of directly comparable longitudinal blocks where the group contains the most stable source-label series; stability is not strength.
+Wings Group,momentum_block_leadership,1,5,0.2,eligible_with_caveat,Count of directly comparable longitudinal blocks where the group contains the highest net-TBI-change series.
+Wings Group,incumbent_persistence,0,,,not_observed_as_baseline_incumbent,Incumbent retention conditional on observed baseline-incumbent opportunities; no opportunity is not a zero.
+Wings Group,successful_challenger_takeover,1,4,,descriptive_role_specific,Count of eligible persistence records ending with this group leading after another focal group was the baseline incumbent.
+Indofood,structural_brand_breadth,38,,1,eligible_with_caveat,Distinct current strict-control canonical brand families; relative position is breadth rank.
+Indofood,current_focal_category_leadership,0,5,0.0,eligible_with_caveat,Complete selected 2026 focal-category leadership events; rate is not market share.
+Indofood,latest_historical_focal_category_leadership,0,5,0.0,eligible_with_caveat,Latest complete historical focal leadership event per eligible category; no 2026 bridge.
+Indofood,observed_stability_block_leadership,1,5,0.2,eligible_with_caveat,Count of directly comparable longitudinal blocks where the group contains the most stable source-label series; stability is not strength.
+Indofood,momentum_block_leadership,2,5,0.4,eligible_with_caveat,Count of directly comparable longitudinal blocks where the group contains the highest net-TBI-change series.
+Indofood,incumbent_persistence,0,1,0.0,observed_baseline_incumbent_opportunity,Incumbent retention conditional on observed baseline-incumbent opportunities; no opportunity is not a zero.
+Indofood,successful_challenger_takeover,0,4,,descriptive_role_specific,Count of eligible persistence records ending with this group leading after another focal group was the baseline incumbent.
+Mayora,structural_brand_breadth,22,,4,eligible_with_caveat,Distinct current strict-control canonical brand families; relative position is breadth rank.
+Mayora,current_focal_category_leadership,0,5,0.0,eligible_with_caveat,Complete selected 2026 focal-category leadership events; rate is not market share.
+Mayora,latest_historical_focal_category_leadership,0,5,0.0,eligible_with_caveat,Latest complete historical focal leadership event per eligible category; no 2026 bridge.
+Mayora,observed_stability_block_leadership,0,5,0.0,eligible_with_caveat,Count of directly comparable longitudinal blocks where the group contains the most stable source-label series; stability is not strength.
+Mayora,momentum_block_leadership,0,5,0.0,eligible_with_caveat,Count of directly comparable longitudinal blocks where the group contains the highest net-TBI-change series.
+Mayora,incumbent_persistence,0,,,not_observed_as_baseline_incumbent,Incumbent retention conditional on observed baseline-incumbent opportunities; no opportunity is not a zero.
+Mayora,successful_challenger_takeover,0,4,,descriptive_role_specific,Count of eligible persistence records ending with this group leading after another focal group was the baseline incumbent.
+Unilever Indonesia,structural_brand_breadth,25,,3,eligible_with_caveat,Distinct current strict-control canonical brand families; relative position is breadth rank.
+Unilever Indonesia,current_focal_category_leadership,3,5,0.6,eligible_with_caveat,Complete selected 2026 focal-category leadership events; rate is not market share.
+Unilever Indonesia,latest_historical_focal_category_leadership,3,5,0.6,eligible_with_caveat,Latest complete historical focal leadership event per eligible category; no 2026 bridge.
+Unilever Indonesia,observed_stability_block_leadership,0,5,0.0,eligible_with_caveat,Count of directly comparable longitudinal blocks where the group contains the most stable source-label series; stability is not strength.
+Unilever Indonesia,momentum_block_leadership,2,5,0.4,eligible_with_caveat,Count of directly comparable longitudinal blocks where the group contains the highest net-TBI-change series.
+Unilever Indonesia,incumbent_persistence,3,3,1.0,observed_baseline_incumbent_opportunity,Incumbent retention conditional on observed baseline-incumbent opportunities; no opportunity is not a zero.
+Unilever Indonesia,successful_challenger_takeover,0,4,,descriptive_role_specific,Count of eligible persistence records ending with this group leading after another focal group was the baseline incumbent.

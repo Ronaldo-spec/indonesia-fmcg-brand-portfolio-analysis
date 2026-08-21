@@ -1,0 +1,12 @@
+gate_id,gate,status,evidence,implication
+OWG01,Structural breadth coverage,partial,"Brand-family breadth is available, but structural category breadth available=False.",Breadth is only partially characterized.
+OWG02,Consumer reach comparability,failed,No comparable source-native CRP universe across all focal groups.,A core success dimension is missing.
+OWG03,Category leadership evidence,passed_with_caveat,5 current and 5 latest-historical complete focal-category snapshots.,Usable only as focal-group leadership evidence.
+OWG04,Longitudinal comparability,passed_with_caveat,5 stability blocks and 5 momentum blocks are directly comparable.,No cross-category magnitude averaging is permitted.
+OWG05,Competitive persistence breadth,partial,4 eligible persistence records with unequal baseline-incumbent opportunities.,Role-specific signals are valid; a portfolio-wide persistence rank is not.
+OWG06,Portfolio concentration comparability,failed,Performance-weighted HHI remains ineligible.,A core diversification/concentration dimension is missing.
+OWG07,Coverage neutrality,failed,Public competitive coverage remains selective and is not ranked as performance.,Observable evidence cannot represent the entire structural portfolio.
+OWG08,Cross-dimension leader convergence,failed,"Rankable leader sets=[('Indofood',), ('Indofood', 'Unilever Indonesia'), ('Unilever Indonesia',), ('Wings Group',)]",Available dimensions identify different leaders.
+OWG09,Scale and weighting compatibility,failed,"Structural counts, focal-category events, stability, momentum, and persistence have different units and opportunity structures.",No defensible composite weighting or common scale has been established.
+OWG10,Pre-specified ownership sensitivity,passed,Le Minerale sensitivity does not change structural rank or eligible quantitative performance results.,Primary conclusions are stable to the pre-specified Mayora extended-group sensitivity.
+OWG11,Overall winner conclusion,not_defensible,At least one mandatory synthesis gate failed; current evidence supports dimension-level leaders rather than one overall winner.,Report multiple dimension leaders and explicit evidence limits.

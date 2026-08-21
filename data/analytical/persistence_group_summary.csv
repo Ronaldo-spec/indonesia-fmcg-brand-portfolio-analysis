@@ -1,0 +1,5 @@
+canonical_group,baseline_incumbent_opportunity_count,retained_incumbent_all_followups_count,lost_incumbent_count,incumbent_retention_rate,persistence_opportunity_status,successful_challenger_takeover_count,persistence_semantics
+Wings Group,0,0,0,,not_observed_as_baseline_incumbent,1,Incumbent retention and challenger takeover are separate observed roles; unavailable incumbent opportunity is not zero.
+Indofood,1,0,1,0.0,observed_baseline_incumbent_opportunity,0,Incumbent retention and challenger takeover are separate observed roles; unavailable incumbent opportunity is not zero.
+Mayora,0,0,0,,not_observed_as_baseline_incumbent,0,Incumbent retention and challenger takeover are separate observed roles; unavailable incumbent opportunity is not zero.
+Unilever Indonesia,3,3,0,1.0,observed_baseline_incumbent_opportunity,0,Incumbent retention and challenger takeover are separate observed roles; unavailable incumbent opportunity is not zero.

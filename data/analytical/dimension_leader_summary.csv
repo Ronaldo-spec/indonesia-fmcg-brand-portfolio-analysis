@@ -1,0 +1,10 @@
+perspective,leader_status,leader_groups,evidence_basis,comparability_caveat
+structural_brand_breadth,rankable_with_caveat,Indofood,Current strict-control canonical brand-family count.,Structural category breadth remains unavailable because category mapping is incomplete.
+current_focal_category_leadership,rankable_with_caveat,Unilever Indonesia,5 complete selected 2026 focal categories.,Focal-group leadership only; not full-market leadership.
+latest_historical_focal_category_leadership,rankable_with_caveat,Unilever Indonesia,5 latest complete historical category snapshots.,Historical methodology is not independently verified and is not bridged to 2026.
+observed_stability,rankable_with_caveat,Wings Group,5 directly comparable longitudinal blocks.,Stability is not category strength; singleton blocks are excluded.
+momentum,rankable_with_caveat,Indofood | Unilever Indonesia,5 directly comparable longitudinal blocks.,Net TBI changes are compared only within category-period blocks.
+competitive_persistence_incumbent_retention,descriptive_signal_only,,Indofood: 0/1; Unilever Indonesia: 3/3,"Baseline-incumbent opportunities are unequal across groups, so a cross-group persistence rank is not produced."
+competitive_persistence_challenger_takeover,descriptive_signal_only,,Wings Group: 1,Takeover opportunities are event-specific and not a portfolio-wide rate.
+consumer_reach,not_comparable,,No comparable source-native CRP universe across focal groups.,Brand Footprint public facts remain context-only.
+portfolio_concentration,not_eligible,,Performance-weighted HHI remains prohibited.,Current cross-category evidence is not an additive portfolio distribution.

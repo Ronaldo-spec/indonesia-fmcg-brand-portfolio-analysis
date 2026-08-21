@@ -1,0 +1,22 @@
+check_id,validation_area,check_description,result,status,critical_failure,required_treatment
+S4B001,input_integrity,All locked Stage 4A and supplemental inputs pass SHA-256 validation.,11/11 inputs passed SHA-256,passed,no,Stop if any locked input differs.
+S4B002,prior_stage_gate,Stage 4A final gate is PASS_WITH_CAVEAT with no critical failure.,PASS_WITH_CAVEAT,passed_with_caveat,no,Do not synthesize a failed prior stage.
+S4B003,current_leadership_snapshot,Current focal leadership uses only documented 2026 complete denominators.,5 current complete categories,passed,no,Do not mix historical methodology into the current snapshot.
+S4B004,historical_leadership_snapshot,Latest historical focal leadership contains one complete snapshot per eligible category.,5 historical category snapshots,passed_with_caveat,no,Use only the latest complete historical period per category.
+S4B005,leadership_semantics,Leadership snapshot rates are explicitly non-market-share selected-category rates.,Selected-category rate semantics retained,passed,no,Never relabel focal-category leadership rate as market share.
+S4B006,consistency_blocks,Observed stability synthesis uses only multi-series directly comparable blocks.,5 comparable stability blocks,passed_with_caveat,no,Exclude singleton longitudinal blocks.
+S4B007,momentum_blocks,Momentum synthesis uses only multi-series directly comparable blocks.,5 comparable momentum blocks,passed_with_caveat,no,Exclude singleton longitudinal blocks.
+S4B008,longitudinal_boundary,No comparable longitudinal block includes 2026.,No 2025-2026 longitudinal bridge,passed,no,Keep methodology clusters separate.
+S4B009,persistence_opportunities,Persistence preserves unavailable baseline-incumbent opportunities rather than filling them with zero rates.,No-opportunity retention rates remain unavailable,passed,no,Do not treat missing incumbent opportunity as zero persistence.
+S4B010,persistence_scope,Persistence synthesis retains the four Stage 4A eligible records.,4 eligible persistence records,passed_with_caveat,no,Do not broaden persistence beyond eligible complete records.
+S4B011,mayora_sensitivity,The Mayora extended structural sensitivity adds exactly one Le Minerale brand-family key.,Mayora 22 -> 23 brand families,passed,no,Keep primary strict-control attribution unchanged.
+S4B012,mayora_sensitivity_rank,Le Minerale sensitivity does not change Mayora structural breadth rank or the structural leader.,Mayora rank 4 -> 4; leader(s)=Indofood,passed,no,Report the extended view only as sensitivity.
+S4B013,competitive_sensitivity,Le Minerale sensitivity observations remain ineligible for quantitative group-performance comparison.,2 context observations; 0 performance candidates,passed,no,Do not mix context-only Brand Footprint facts into Top Brand analysis.
+S4B014,temporal_robustness,Current and latest-historical complete focal leadership use the same category set.,same_category_set=True,passed,no,"If category sets differ, do not compare aggregate leader counts directly."
+S4B015,group_matrix,Every focal group has all seven group-level evidence perspectives.,28 group-dimension rows,passed,no,Preserve non-comparable dimensions outside the numeric matrix.
+S4B016,dimension_divergence,Rankable dimensions are evaluated independently rather than forced to share one leader.,4 distinct leader sets,passed_with_caveat,no,Report dimension-specific leaders.
+S4B017,consumer_reach,Consumer reach remains non-comparable.,not_comparable,passed_with_caveat,no,"Do not infer CRP from rank, lower bounds, or qualitative facts."
+S4B018,concentration,Portfolio concentration remains ineligible.,not_eligible,passed,no,Do not create performance HHI.
+S4B019,overall_winner,Overall-winner defensibility is determined by explicit gates rather than a composite score.,not_defensible,passed_with_caveat,no,Use dimension-level reporting while blocking gates remain.
+S4B020,prohibited_synthesis,"No composite, weighted overall score, or performance HHI is produced.",No prohibited synthesis fields,passed,no,Keep synthesis dimension-level and non-composite.
+S4B021,stage_gate,Stage 4B group-level comparative synthesis and sensitivity is complete enough for visualization and findings preparation.,PASS_WITH_CAVEAT,passed_with_caveat,no,Use dimension-specific evidence and retain the overall-winner-not-defensible conclusion unless later validated evidence resolves the blocking gates.
