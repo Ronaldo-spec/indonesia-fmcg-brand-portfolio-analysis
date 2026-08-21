@@ -1,0 +1,8 @@
+period_rule_id,evidence_role,period,eligibility,required_treatment
+PER01,strategy_pre_window,2021,eligible_with_caveat,A 2021 action may be linked only when a documented or pre-specified lag plausibly affects a 2022–2025 outcome.
+PER02,primary_strategy_window,2022–2025,primary,Use dated or period-bounded documented strategic actions.
+PER03,primary_corporate_outcome_window,FY2022–FY2025,primary,Use completed annual periods and preserve fiscal-period definitions.
+PER04,inherited_historical_brand_outcomes,2022–2025,primary_with_inherited_caveat,Retain the validated historical Top Brand methodology cluster and its existing caveats.
+PER05,documented_current_brand_snapshot,2026,separate_current_snapshot,Retain the documented 2026 focal-category snapshot without bridging it to the historical cluster.
+PER06,incomplete_2026_corporate_evidence,2026 interim or year-to-date,context_only_until_full_year,Do not compare partial-year results with completed annual periods unless a like-for-like interim comparison is explicitly defined.
+PER07,outside_window,Before 2021 or after 2026,context_only,"Use only when necessary to explain ownership, long-lived capacity, or a clearly documented prior condition."

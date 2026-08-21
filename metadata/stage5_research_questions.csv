@@ -1,0 +1,12 @@
+question_id,question_domain,research_question,analytical_role
+SRQ01,documented_strategy,"Which material portfolio, pricing, marketing, distribution, supply, manufacturing, capital-allocation, cost-productivity, and ownership actions were documented for each focal group during the eligible period?",primary
+SRQ02,intended_mechanism,"What mechanism was each documented action intended to influence, and at which brand, category, segment, entity, geography, and period?",primary
+SRQ03,portfolio_product,"How do documented portfolio and product actions align with inherited breadth, focal-category leadership, stability, momentum, and persistence outcomes?",primary
+SRQ04,pricing_pack,"How do documented pricing and pack-architecture actions align with revenue, volume, price/mix, profitability, and eligible brand outcomes?",primary
+SRQ05,marketing_brand,How do documented marketing and brand-investment actions align with eligible brand or category outcomes without treating temporal association as causation?,primary
+SRQ06,distribution_supply_capacity,"How do documented distribution, supply, procurement, and manufacturing-capacity actions align with availability, volume, sales, and category outcomes?",primary
+SRQ07,capital_cost_productivity,"How do documented capital-allocation and cost-productivity actions align with capacity, growth, profit, margin, and cash-flow outcomes?",primary
+SRQ08,reporting_perimeter,"Which reported outcomes are attributable to an Indonesian brand, category, segment, or company, and which remain consolidated-group or mixed-geography context only?",primary
+SRQ09,alternative_explanations,"Do timing, ownership changes, input costs, exchange rates, inflation, regulation, portfolio changes, or other disclosed factors limit a strategy–result interpretation?",primary
+SRQ10,cross_group_synthesis,"Which strategy–result patterns are directly comparable across focal groups, and which support only within-company or context-specific conclusions?",primary
+SRQ11,overall_conclusion,Does the combined evidence change any dimension-level conclusion or the not-defensible overall-winner status without a pre-specified comparable scale and weighting framework?,governance

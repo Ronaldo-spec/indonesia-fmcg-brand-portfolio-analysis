@@ -1,0 +1,19 @@
+outcome_id,outcome_family,outcome_metric,unit_family,evidence_origin,current_eligibility,required_treatment
+OUT01,portfolio,structural_brand_breadth,count,inherited_stage4,eligible_with_caveat,Brand-family breadth only; not structural category breadth or competitive strength.
+OUT02,portfolio,focal_category_leadership,event_count_or_rate,inherited_stage4,eligible_with_caveat,Selected complete focal-category evidence; not market share or full-market leadership.
+OUT03,portfolio,observed_stability,block_leader_event,inherited_stage4,eligible_with_caveat,Stability is not strength.
+OUT04,portfolio,momentum,block_leader_event,inherited_stage4,eligible_with_caveat,No cross-category magnitude averaging and no 2025–2026 methodology bridge.
+OUT05,portfolio,competitive_persistence,role_specific_event,inherited_stage4,descriptive_only,Incumbent and challenger opportunities are unequal.
+OUT06,portfolio,consumer_reach,source_native_reach_metric,new_or_existing_source,not_eligible_currently,Require a comparable source-native universe; CRP is not market share.
+OUT07,commercial,net_sales_or_revenue,reported_currency,new_corporate_evidence,conditional,"Preserve entity, segment, geography, consolidation, and continuing-operation scope."
+OUT08,commercial,sales_growth,percent,new_corporate_evidence,conditional,"Separate reported, constant-currency, organic, and derived growth definitions."
+OUT09,commercial,volume,source_native_volume_unit,new_corporate_evidence,conditional,Do not infer volume from revenue without a disclosed bridge.
+OUT10,commercial,price_mix,percent_or_reported_effect,new_corporate_evidence,conditional,"Use only an explicitly reported price, mix, or combined price/mix measure."
+OUT11,profitability,gross_profit,reported_currency,new_corporate_evidence,conditional,Require a compatible accounting and entity scope.
+OUT12,profitability,gross_margin,percent,new_corporate_evidence,conditional,"Margin is an outcome, not a strategy, and must retain the reported calculation basis."
+OUT13,profitability,operating_profit,reported_currency,new_corporate_evidence,conditional,"Separate recurring, underlying, and reported measures."
+OUT14,profitability,operating_margin,percent,new_corporate_evidence,conditional,Do not compare margins across incompatible entities or accounting definitions.
+OUT15,capital,capital_expenditure,reported_currency,new_corporate_evidence,conditional,Capex is an investment input unless an operational result is separately observed.
+OUT16,operational,production_capacity_or_utilisation,source_native_unit,new_corporate_evidence,conditional,"Separate announced, installed, commissioned, and utilised capacity."
+OUT17,operational,distribution_or_availability,source_native_unit,new_corporate_evidence,conditional,"Do not relabel outlet, distributor, or geographic counts as consumer reach."
+OUT18,market,source_defined_market_share,source_native_percent,new_external_or_company_evidence,conditional,Use the term market share only when the source explicitly measures market share for a defined market.

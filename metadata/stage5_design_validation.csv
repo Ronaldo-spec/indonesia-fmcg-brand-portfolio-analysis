@@ -1,0 +1,27 @@
+check_id,validation_area,check_description,result,status,critical_failure,required_treatment
+S5D001,input_integrity,All inherited Stage 0–4 inputs match their locked SHA-256 values.,7/7 inputs passed,passed,no,Stop Stage 5 if any inherited input differs.
+S5D002,prior_stage_gate,Stage 4C remains PASS_WITH_CAVEAT with no critical failure.,PASS_WITH_CAVEAT,passed_with_caveat,no,Carry all Stage 4 caveats into the strategy–result track.
+S5D003,focal_group_scope,The reporting-entity perimeter covers exactly the four focal groups.,4/4 focal groups,passed,no,Do not add or remove focal groups after observing results.
+S5D004,stage4_findings,All six Stage 4 findings remain inherited without modification.,FND4_01–FND4_06,passed,no,Treat Stage 4 as the frozen portfolio-outcome module.
+S5D005,overall_winner,The inherited overall-winner conclusion remains not_defensible.,not_defensible,passed_with_caveat,no,Do not use strategy evidence to force one overall winner.
+S5D006,research_questions,"Research questions cover actions, mechanisms, outcomes, attribution, alternative factors, and comparability.",11 questions,passed,no,Acquire only evidence relevant to the frozen questions.
+S5D007,strategy_taxonomy,Strategic levers are defined before acquisition.,9 strategic-lever dimensions,passed,no,Do not create post-result strategy categories to favour a group.
+S5D008,outcome_taxonomy,"Portfolio, commercial, profitability, capital, operational, and market outcomes remain separated.",18 outcome definitions,passed,no,Preserve source-native units and definitions.
+S5D009,margin_semantics,Margin is classified as an outcome rather than a strategy.,gross_margin and operating_margin are outcome metrics,passed,no,"Require a separately documented cost, pricing, mix, or productivity action."
+S5D010,market_share_semantics,Market share is permitted only when the source explicitly measures a defined market share.,source-defined market share only,passed,no,"Do not relabel TBI, CRP, rank, reach, or revenue as market share."
+S5D011,period_scope,Completed FY2022–FY2025 corporate outcomes are primary; 2026 incomplete-year evidence is separated.,Primary FY2022–FY2025; 2026 interim context only,passed_with_caveat,no,Use like-for-like interim comparisons only when explicitly defined.
+S5D012,methodology_boundary,The 2026 documented brand snapshot is not bridged to the 2022–2025 historical methodology cluster.,No 2025–2026 longitudinal bridge,passed,no,Retain inherited methodology clusters.
+S5D013,entity_attribution,"Corporate results require explicit brand, category, segment, company, or consolidated attribution.",10 perimeter rules,passed,no,Do not attribute consolidated results to brands without support.
+S5D014,wings_disclosure,Private-company disclosure availability is treated neutrally.,Missing disclosure is not zero or weak performance,passed_with_caveat,no,Report evidence asymmetry separately from performance.
+S5D015,mayora_scope,Le Minerale remains outside the strict-control Mayora primary portfolio.,extended_group_sensitivity_only,passed,no,Do not change primary attribution based on observed results.
+S5D016,unilever_scope,Unilever ownership and portfolio credit remain time-varying.,Observation-period ownership required,passed,no,Do not carry disposed businesses into later outcomes.
+S5D017,source_hierarchy,Primary filings and official disclosures precede secondary contextual sources.,11 source classes,passed,no,Use secondary sources mainly for corroboration or context.
+S5D018,company_claims,Company-attributed strategy–result explanations remain labelled company-reported.,company_reported status retained,passed,no,Do not present management attribution as independent causal proof.
+S5D019,attribution_strength,"Attribution classes distinguish direct, segment, company, consolidated, temporal, claimed, and unassessable evidence.",9 attribution rules,passed,no,Use the narrowest defensible claim level.
+S5D020,linkage_eligibility,Strategy–result links require pre-specified eligibility gates.,16 linkage gates,passed,no,Do not link actions and outcomes solely because both are available.
+S5D021,cross_group_comparability,"Cross-group ranking requires compatible metric, entity, geography, period, unit, and accounting scope.",within-company baseline; conditional cross-company comparison,passed_with_caveat,no,Report non-comparability as a valid finding.
+S5D022,causal_boundary,Temporal alignment or company attribution is not treated as causal identification.,No causal upgrade,passed,no,Use descriptive or associational language unless a defensible causal design is available.
+S5D023,missingness,Unavailable or undisclosed evidence remains missing rather than zero.,No missing-to-zero rule,passed,no,Preserve disclosure and measurement gaps.
+S5D024,prohibited_synthesis,"No composite score, arbitrary weighting, performance HHI, or strategy score is designed.",No prohibited synthesis,passed,no,Keep results dimension-level and case-based.
+S5D025,stage_scope,Stage 5 outputs contain research design metadata only.,"No strategy observations, result estimates, report, or README",passed,no,Begin acquisition only after this design gate is accepted.
+S5D026,stage_gate,The strategy–result research design is complete enough to begin controlled evidence acquisition.,PASS_WITH_CAVEAT,passed_with_caveat,no,Carry anticipated disclosure asymmetry and comparability limits into acquisition.

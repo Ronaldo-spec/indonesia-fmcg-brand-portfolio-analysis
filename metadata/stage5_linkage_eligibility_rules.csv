@@ -1,0 +1,17 @@
+linkage_rule_id,eligibility_gate,requirement,gate_type,treatment_if_not_met
+LNK01,documented_action,A dated or period-bounded strategic action is supported by an eligible source.,mandatory,not_eligible
+LNK02,ownership_validity,"The focal group controls the relevant brand, business, or result perimeter during the observation period.",mandatory,not_eligible
+LNK03,entity_alignment,Strategy and outcome share a defensible entity or segment attribution.,mandatory_for_direct_link,context_only
+LNK04,geography_alignment,Strategy and outcome share Indonesia scope or a separately identified geography.,mandatory_for_indonesia_claim,context_only
+LNK05,brand_category_alignment,Brand or category scope matches when a brand- or category-level claim is proposed.,mandatory_for_brand_category_claim,context_only
+LNK06,temporal_order,The strategy action precedes or overlaps the eligible outcome period in a plausible order.,mandatory,not_assessable
+LNK07,lag_rationale,Any lag is pre-specified or documented and not selected after observing the outcome.,mandatory_when_lagged,not_assessable
+LNK08,outcome_definition,"Metric, unit, period, entity, geography, and source-native semantics are preserved.",mandatory,not_eligible
+LNK09,baseline_or_comparator,"A compatible prior period, target, comparator, or explicit no-baseline limitation is recorded.",mandatory_for_change_claim,descriptive_level_only
+LNK10,alternative_factors,"Material disclosed cost, currency, demand, regulation, ownership, and portfolio factors are recorded.",mandatory_for_interpretation,supported_with_caveat_at_best
+LNK11,company_claim_label,Company-attributed explanations remain labelled company-reported.,mandatory,not_eligible_for_independent_claim
+LNK12,missingness,Unavailable or undisclosed values remain missing rather than zero.,mandatory,not_eligible
+LNK13,cross_company_comparability,"Metric definition, entity scope, geography, period, unit, and accounting basis are compatible.",mandatory_for_cross_group_ranking,within_company_only
+LNK14,private_disclosure_neutrality,Lower public disclosure coverage is not interpreted as weaker strategy or performance.,mandatory,not_eligible
+LNK15,causal_claim_boundary,Descriptive alignment is not upgraded to causation without a defensible identification design.,mandatory,descriptive_or_associational_only
+LNK16,no_composite_upgrade,"Strategy evidence is not converted into an arbitrary score, weighting, or overall winner.",mandatory,dimension_or_case_level_only

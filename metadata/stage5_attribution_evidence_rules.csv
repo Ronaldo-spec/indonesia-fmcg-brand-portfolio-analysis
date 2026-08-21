@@ -1,0 +1,10 @@
+attribution_rule_id,attribution_class,definition,default_evidence_status,allowed_claim
+ATTR01,brand_category_direct,"The action and result match the same controlled brand or exact category, geography, and eligible period.",directly_supported,May support a direct descriptive link; causation still requires stronger identification.
+ATTR02,business_segment_direct,"The action and result match the same disclosed business segment and eligible period, but brand-level attribution is unavailable.",supported_with_caveat,Report at segment level only.
+ATTR03,indonesia_company_direct,The result applies to the Indonesian operating company but combines multiple categories or brands.,supported_with_caveat,Do not assign the result to an individual brand or category.
+ATTR04,consolidated_group_only,"The result combines multiple entities, markets, or businesses beyond the primary analytical universe.",context_only,Do not treat the result as Indonesian packaged-FMCG performance.
+ATTR05,mixed_geography,Domestic and export or international results cannot be separated.,context_only,Do not interpret the measure as Indonesian household demand.
+ATTR06,temporally_aligned_only,"A documented action precedes an outcome, but mechanism, entity, category, or alternative explanations remain insufficiently resolved.",temporally_aligned,Describe alignment only; do not state that the action produced the result.
+ATTR07,company_claimed_link,The company explicitly attributes a result to a strategy or operating factor.,company_reported,Label the attribution as company-reported and seek independent or accounting support.
+ATTR08,plausible_unverified,"A relationship is plausible but lacks adequate direct, temporal, or scope evidence.",plausible_but_unverified,"Retain as interpretation or hypothesis, not a finding."
+ATTR09,not_attributable,"The action and outcome cannot be matched on entity, geography, category, ownership, or period.",not_assessable,Do not create a strategy–result link.
