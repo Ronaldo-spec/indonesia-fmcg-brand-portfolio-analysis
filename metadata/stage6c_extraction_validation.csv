@@ -1,0 +1,39 @@
+check_id,validation_area,check_description,result,status,critical_failure,required_treatment
+S6C001,input_integrity,All eight governed Stage 5/6B inputs match their locked SHA-256 values.,8/8 inputs passed,passed,no,Stop Stage 6C if any inherited artifact differs.
+S6C002,prior_stage_gate,Stage 6B final acquisition gate remains PASS_WITH_CAVEAT.,PASS_WITH_CAVEAT,passed_with_caveat,no,Carry all Stage 6B acquisition caveats into extraction.
+S6C003,document_registry,The inherited controlled document registry retains 56 unique references.,56 references,passed,no,Do not create unregistered source identities during extraction.
+S6C004,strategy_taxonomy,The frozen Stage 5 strategy taxonomy contains STR01–STR09.,9 frozen codes,passed,no,Reject post-hoc strategy dimensions.
+S6C005,outcome_taxonomy,The frozen Stage 5 outcome taxonomy contains OUT01–OUT18.,18 frozen outcomes,passed,no,Do not create new outcome semantics after observing results.
+S6C006,attribution_taxonomy,The frozen Stage 5 attribution taxonomy contains ATTR01–ATTR09.,9 frozen classes,passed,no,Use the pre-specified evidence-strength treatment.
+S6C007,action_identity,Every documented strategy action has a unique action ID.,22 unique actions,passed,no,Do not duplicate one action across rows without a distinct strategy classification.
+S6C008,result_identity,Every observable result has a unique result ID.,69 unique results,passed,no,Keep original and represented comparators as distinct observations.
+S6C009,claim_identity,Every company-attribution claim has a unique claim ID.,6 unique claims,passed,no,Do not merge distinct management explanations.
+S6C010,action_provenance,Every strategy action maps to a registered Stage 6B document.,complete,passed,no,Reject actions without a controlled source reference.
+S6C011,result_provenance,Every result observation maps to a registered Stage 6B document.,complete,passed,no,Reject observations without a controlled source reference.
+S6C012,claim_provenance,Every company-attribution claim maps to a registered Stage 6B document.,complete,passed,no,Reject attribution claims without a controlled source reference.
+S6C013,source_urls,All extracted evidence rows retain a resolved source URL.,complete,passed,no,Preserve direct or controlled-index provenance.
+S6C014,strategy_code_validity,All action strategy codes belong to the frozen STR01–STR09 taxonomy.,7 strategy codes used,passed,no,Do not invent new action classes.
+S6C015,outcome_id_validity,All result outcome IDs belong to the frozen OUT01–OUT18 taxonomy.,8 outcome IDs used,passed,no,Preserve outcome semantics.
+S6C016,attribution_class_validity,All result attribution classes belong to the frozen ATTR01–ATTR09 taxonomy.,4 attribution classes used,passed,no,Apply scope-specific evidence treatment.
+S6C017,evidence_class_separation,"Strategy actions, observable results, and company-attribution claims are stored in separate canonical datasets.",3 separated evidence classes,passed,no,"Do not collapse actions, outcomes and explanations into one score."
+S6C018,company_claim_boundary,All company-attribution rows remain ATTR07 / company_reported.,6/6 retained,passed,no,Never upgrade a management explanation into independent causal evidence.
+S6C019,raw_storage,Stage 6C creates no raw copyrighted source-document repository copies.,none created,passed,no,Keep corporate reports and webpages reference-only.
+S6C020,market_share_semantics,No OUT18 market-share observation is created from corporate leadership language or survey-index terminology.,0 OUT18 observations,passed,no,Require a directly defined market-share measure before using market-share terminology.
+S6C021,consumer_reach_semantics,Distribution/outlet coverage is not relabelled as consumer reach.,OUT17 retained as distribution availability,passed,no,Keep consumer reach and distribution availability distinct.
+S6C022,source_native_units,Reported numeric values retain their source-native units and qualifiers.,units retained,passed_with_caveat,no,Perform cross-unit transformation only in a later governed stage.
+S6C023,missingness,Unavailable or unextracted evidence is not filled with zero or silently imputed.,preserved,passed,no,Keep missing disclosure and extraction gaps explicit.
+S6C024,wings_disclosure,Wings financial-disclosure gaps remain explicit exceptions and produce no fabricated financial observations.,0 Wings financial-result rows,passed_with_caveat,no,Do not interpret disclosure absence as weak performance.
+S6C025,wings_market_claims,Wings corporate market-position language is excluded from OUT18.,excluded,passed,no,Use only an explicitly measured defined market share.
+S6C026,indofood_parent_scope,Indofood parent consolidated results remain ATTR04/context-only for packaged-FMCG interpretation.,retained,passed_with_caveat,no,Do not assign parent results to individual brands or consumer segments.
+S6C027,icbp_geography,ICBP consolidated results retain mixed-geography treatment.,ATTR05/context-only,passed_with_caveat,no,Do not interpret consolidated ICBP results as Indonesian household demand.
+S6C028,mayora_geography,Mayora consolidated results retain mixed domestic/export treatment.,ATTR05/context-only,passed_with_caveat,no,Do not interpret consolidated Mayora results as Indonesian household demand.
+S6C029,mayora_sensitivity_scope,PT Tirta Fresindo Jaya / Le Minerale does not appear in primary Stage 6C action or result datasets.,excluded from primary extraction,passed,no,Retain only for separately labelled sensitivity analysis if later required.
+S6C030,unilever_ownership,Unilever Ice Cream separation is retained as a dated ownership action and SariWangi completion remains post-window context.,ownership-period treatment retained,passed_with_caveat,no,Do not carry disposed businesses beyond their valid ownership periods.
+S6C031,unilever_comparator_scope,FY2024 originally published values and FY2024 restated/re-presented continuing-operation values remain separate.,distinct observations retained,passed_with_caveat,no,Never overwrite the original FY2024 observation with the later represented comparator.
+S6C032,interim_boundary,The Q1 2025 distribution measure remains explicitly interim/launch context rather than a full-year result.,retained,passed,no,Require like-for-like treatment before any later interim comparison.
+S6C033,no_action_result_inference,Stage 6C does not infer an outcome from a strategy action or a strategy from an outcome.,none created,passed,no,Reserve linkage assessment for the next governed stage.
+S6C034,no_causal_upgrade,Temporal ordering and company attribution are not treated as causal identification.,none upgraded,passed,no,Use only the frozen evidence-status vocabulary in later linkage assessment.
+S6C035,no_composite_or_ranking,"Stage 6C creates no cross-company ranking, composite score or overall winner.",none created,passed,no,Keep extraction separate from synthesis.
+S6C036,reporting_boundary,Stage 6C creates no analytical report or README.,none created,passed,no,"Defer reporting until analysis, validation, visualization and findings are complete."
+S6C037,exception_registry,Extraction caveats and unresolved boundaries are explicitly registered.,14 exceptions,passed_with_caveat,no,Carry unresolved issues forward rather than silently repairing them.
+S6C038,stage_gate,Governed evidence extraction is complete enough to begin strategy-result linkage eligibility screening.,PASS_WITH_CAVEAT,passed_with_caveat,no,"Carry disclosure asymmetry, scope incompatibilities, represented comparators, legal boundaries and company-claim labels into Stage 6D."
