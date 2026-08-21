@@ -1,0 +1,34 @@
+check_id,validation_area,check_description,result,status,critical_failure,required_treatment
+S6B001,input_integrity,All five canonical Stage 6A inputs match their locked SHA-256 values.,5/5 inputs passed,passed,no,Stop Stage 6B if any inherited input differs.
+S6B002,prior_stage_gate,Stage 6A final gate remains PASS_WITH_CAVEAT.,PASS_WITH_CAVEAT,passed_with_caveat,no,Carry Stage 6A caveats into document acquisition.
+S6B003,target_universe,All 26 frozen Stage 6A acquisition targets are represented exactly once.,26/26 targets,passed,no,Do not add or remove targets after observing source availability.
+S6B004,focal_group_coverage,The controlled registry contains references for all four focal groups.,4/4 focal groups,passed,no,Keep group and legal-entity scope explicit.
+S6B005,document_identity,Every controlled document/reference has a unique document ID.,56 unique IDs,passed,no,Do not merge distinct documents under one identifier.
+S6B006,source_url_provenance,Every controlled registry record retains a source URL.,complete,passed,no,Never replace authoritative URLs with local raw copies.
+S6B007,target_mapping,Every document-to-target mapping uses a frozen Stage 6A target ID.,valid,passed,no,Reject post-hoc target creation.
+S6B008,repository_storage,All Stage 6B document records remain reference-only for repository storage.,reference_only,passed_with_caveat,no,Do not commit copyrighted source PDFs or mirrored webpages.
+S6B009,raw_acquisition,Stage 6B creates no raw copyrighted-report directory or repository copy.,none created,passed,no,Keep raw source documents outside the repository unless reuse rights are later established.
+S6B010,bulk_access,Stage 6B performs no bulk/systematic scraping of corporate source sites.,none performed,passed,no,Use manual/single-document reference acquisition within source terms.
+S6B011,wings_strategy_sources,Wings has dated official action references for the primary strategy window.,2022–2023 dated action references acquired,passed_with_caveat,no,Do not infer complete 2024–2025 coverage from the web archive.
+S6B012,wings_financial_disclosure,Wings annual report and audited-financial targets retain explicit not-found states.,2 disclosure targets not found,passed_with_caveat,no,"Treat as disclosure asymmetry, not performance evidence."
+S6B013,wings_entity_scope,Wings operating-entity resolution remains conditional on later attribution need.,partial,passed_with_caveat,no,Do not invent legal-entity precision.
+S6B014,indofood_parent_reporting,Indofood parent annual reports and annual financial statements cover FY2022–FY2025 through official index entries.,FY2022–FY2025 covered,passed,no,Preserve consolidated and segment boundaries.
+S6B015,indofood_period_results,Indofood FY2022–FY2024 owned-domain result releases are acquired and FY2025 has explicit parent/regulatory corroboration.,FY2022–FY2025 referenced,passed_with_caveat,no,Keep the FY2025 source caveat explicit.
+S6B016,indofood_bogasari_scope,Bogasari consumer flour/pasta scope is separated from industrial-only activity.,scope rule retained,passed,no,Do not attribute industrial-only outcomes to packaged-FMCG performance.
+S6B017,indofood_agribusiness_scope,Agribusiness consumer edible oils/fats remain separated from plantations/upstream and industrial products.,scope rule retained,passed,no,Extract only consumer-relevant downstream evidence for primary portfolio results.
+S6B018,icbp_reporting,ICBP annual and audited-financial source families cover FY2022–FY2025.,FY2022–FY2025 covered,passed_with_caveat,no,Preserve ICBP consolidation/geography and reference-only legal treatment.
+S6B019,icbp_claim_attribution,ICBP management explanations remain explicitly company-reported.,retained,passed,no,Do not convert management attribution into independent causation.
+S6B020,mayora_reporting,Mayora annual reports and annual financial statements cover FY2022–FY2025 at official index or direct-document level.,FY2022–FY2025 covered,passed,no,Do not confuse unresolved direct URL with unavailable document.
+S6B021,mayora_geography,Mayora domestic/export separation remains a required later extraction treatment.,retained,passed,no,Do not interpret export-inclusive consolidated results as Indonesian household demand.
+S6B022,mayora_redistribution,Mayora source treatment retains no-raw-redistribution and no-systematic-download restrictions.,retained,passed_with_caveat,no,Keep repository reference-only.
+S6B023,mayora_sensitivity,PT Tirta Fresindo Jaya / Le Minerale remains conditional sensitivity-only.,extended_group_sensitivity_only,passed,no,Exclude from strict-control primary Mayora results.
+S6B024,unilever_annual_reporting,Unilever annual reports are directly resolved for FY2022–FY2025.,4/4 target years direct,passed,no,Apply observation-period ownership to later extracted brand/business evidence.
+S6B025,unilever_financial_reporting,Two direct audited annual financial statements support FY2022–FY2025 accounting coverage.,FY2022–FY2025 covered,passed,no,"Use source-native comparators, restatements and discontinued-business scope."
+S6B026,unilever_time_varying_ownership,Ice Cream and SariWangi disposal dates remain explicit ownership-period context.,Ice Cream 2025-12-08; SariWangi 2026-03-02,passed_with_caveat,no,Do not carry disposed businesses beyond valid ownership periods.
+S6B027,interim_evidence,Interim presentations are retained as strategy/context evidence rather than substituted for full-year outcomes.,retained,passed,no,Apply like-for-like rule before any later interim result comparison.
+S6B028,consumer_reach_semantics,Worldpanel consumer-reach context remains limited and CRP is not relabelled as market share.,retained,passed_with_caveat,no,Keep source-native metric terminology.
+S6B029,conditional_context,Macro/input-cost and defined market-share sources remain conditional rather than forced into Stage 6B.,2 conditional targets deferred,passed,no,Acquire only when a later analytical question requires them.
+S6B030,missingness,"Not-found, unresolved and deferred states are preserved without zero filling or silent substitution.",preserved,passed,no,Keep disclosure and access gaps explicit.
+S6B031,analysis_boundary,"Stage 6B performs no analytical observation extraction, strategy-result linkage, ranking, composite scoring or winner selection.",none performed,passed,no,Reserve extraction and linkage for governed later stages.
+S6B032,reporting_boundary,Stage 6B creates no analytical report or README.,none created,passed,no,"Defer reporting until analysis, validation, visualization and findings are complete."
+S6B033,stage_gate,Controlled official-source acquisition is complete enough to begin governed evidence extraction.,PASS_WITH_CAVEAT,passed_with_caveat,no,"Carry Wings disclosure asymmetry, unresolved direct-link gaps, legal restrictions and ownership-period caveats into Stage 6C."
